@@ -96,5 +96,5 @@ idea: weekend or not (use .weekday() method on date formatted date --> result fr
 
 
 change date format
-implement lag (transform string to date and do date operation)
+implement lag (transform string to date and do date operation) test
 ![[Pasted image 20220217112920.png]]
