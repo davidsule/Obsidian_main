@@ -1,0 +1,1 @@
+LU factorization and it's use (Elementary lin algebra book end of chapter 2.4)
