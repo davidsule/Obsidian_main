@@ -1,12 +1,12 @@
 [Our World in Data](ourworldindata.com) - 
 Sources
 - [Pearson correlation](https://www.spss-tutorials.com/pearson-correlation-coefficient/)
--   [Spearman correlation](https://www.spss-tutorials.com/spearman-rank-correlation/)
--   [Bonferroni correction](https://matthew-brett.github.io/teaching/bonferroni_correction.html) (the Šidák correction here is useful for understanding but won't be part of the exam)
--   [Holm-Bonferroni correction](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Book%3A_Learning_Statistics_with_R_-_A_tutorial_for_Psychology_Students_and_other_Beginners_(Navarro)/14%3A_Comparing_Several_Means_(One-way_ANOVA)/14.06%3A_Multiple_Comparisons_and_Post_Hoc_Tests) (only sections 14.5.3 and 14.5.4)
--   [Multivariate regression basics](https://www.w3schools.com/python/python_ml_multiple_regression.asp)
--   [Fixed Effects](https://lost-stats.github.io/Model_Estimation/OLS/fixed_effects_in_linear_regression.html)
--   [Clustered standard errors](https://www.statology.org/clustered-standard-errors/).
+- [Spearman correlation](https://www.spss-tutorials.com/spearman-rank-correlation/)
+- [Bonferroni correction](https://matthew-brett.github.io/teaching/bonferroni_correction.html) (the Šidák correction here is useful for understanding but won't be part of the exam)
+- [Holm-Bonferroni correction](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Book%3A_Learning_Statistics_with_R_-_A_tutorial_for_Psychology_Students_and_other_Beginners_(Navarro)/14%3A_Comparing_Several_Means_(One-way_ANOVA)/14.06%3A_Multiple_Comparisons_and_Post_Hoc_Tests) (only sections 14.5.3 and 14.5.4)
+- [Multivariate regression basics](https://www.w3schools.com/python/python_ml_multiple_regression.asp)
+- [Fixed Effects](https://lost-stats.github.io/Model_Estimation/OLS/fixed_effects_in_linear_regression.html)
+- [Clustered standard errors](https://www.statology.org/clustered-standard-errors/).
 
 ## Project 1
 Open Question:
