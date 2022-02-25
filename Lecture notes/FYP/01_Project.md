@@ -122,7 +122,7 @@ implement lag (transform string to date and do date operation)
  Sanity checks, filtering
  Data wrangling (eg. date _effect: add lag) - before actual analysis
 
- ##### Task 1 - Single variable / exploratory analysis
+ ##### Task 1 -Univariate / exploratory analysis
 
  Single variable analysis - exploratory data analysis
  maybe PDF - to check if the distribution is normal or not - if not, maybe log-transform
@@ -168,4 +168,7 @@ Over time - but what did he do here? dafuk is this?!
 
 ##### Task 4 - Multiple variable analysis
 
- 
+DO IT. 
+he did one without one with govt intervention
+
+Discussion: assumptions, limitations, conclusions
