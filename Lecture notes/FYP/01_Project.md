@@ -139,7 +139,7 @@ implement lag (transform string to date and do date operation)
  Numeric analysis: problem: if 4 levels (0-3) is 3 3x as strict as 1? - probably they are qualitatively different, not quantitatively diff.
  Idea: transform into 3 diff  fixed effect: let's say level 1: primary schools closed level 2: secondary closed, etc, then 3 binary variable
 
- ##### Task 2 - pairs of variables / correlations
+ ##### Task 2 - Bivariate analysis
 
  Pairs of variables - typically correlations
  Correct for multiple hypothesis testing
@@ -163,7 +163,7 @@ His color scale: '**equipopulated**': each bins have the same number of observat
 
 Algorithms exist that can find natural breaks in the data (like based on clusters, etc)
 
-Over time - but what did he do her?
+Over time - but what did he do here? dafuk is this?!
 ![[Pasted image 20220225172159.png]]
 
 ##### Task 4 - Multiple variable analysis
