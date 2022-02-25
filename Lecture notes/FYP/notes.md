@@ -125,4 +125,22 @@ implement lag (transform string to date and do date operation)
  ##### Task 1
 
  Single variable analysis - exploratory data analysis
+ maybe PDF - to check if the distribution is normal or not - if not, maybe log-transform
+ (when to log transform??)
+
+ Use PDF to check distribution - if not normal, figure out the correct transformation - if skewed --> probably log-transform
+ there are other ways to transform the data
+ .. or you can just use Spearman
+ (other transformations: not part of curriculum)
+
+ Problem w/ Spearmn: unclear how to translate it when you do the multiple regression analysis
+
+ Interventions: not necessarily fixed effects.
+ Numeric analysis: problem: if 4 levels (0-3) is 3 3x as strict as 1? - probably they are qualitatively different, not quantitatively diff.
+ Idea: transform into 3 diff  fixed effect: let's say level 1: primary schools closed level 2: secondary closed, etc, then 3 binary variable
+
+ ##### Task 2
+
+ Pairs of variables - typically correlations
+ correct for multiple hypothesis testing
  
