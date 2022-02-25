@@ -113,7 +113,7 @@ implement lag (transform string to date and do date operation)
 - Start with it in the project - why is it useful? Prediction, Govt etc
 - we might compare countries
 
- ##### Task 00
+ ##### Task 00 - Data
  
  Data sources:
  - Project Data
@@ -122,7 +122,7 @@ implement lag (transform string to date and do date operation)
  Sanity checks, filtering
  Data wrangling (eg. date _effect: add lag) - before actual analysis
 
- ##### Task 1
+ ##### Task 1 - Single variable / exploratory analysis
 
  Single variable analysis - exploratory data analysis
  maybe PDF - to check if the distribution is normal or not - if not, maybe log-transform
@@ -139,8 +139,20 @@ implement lag (transform string to date and do date operation)
  Numeric analysis: problem: if 4 levels (0-3) is 3 3x as strict as 1? - probably they are qualitatively different, not quantitatively diff.
  Idea: transform into 3 diff  fixed effect: let's say level 1: primary schools closed level 2: secondary closed, etc, then 3 binary variable
 
- ##### Task 2
+ ##### Task 2 - pairs of variables / correlations
 
  Pairs of variables - typically correlations
- correct for multiple hypothesis testing
+ Correct for multiple hypothesis testing
+
+![[Pasted image 20220225170156.png]]
+Image: y axis:log hospitalization
+x: axis: bins of weather variables
+vertical lines: standard deviation or standard error
+
+##### Task 3 - Geographical Visualization
+
+folium or anything else
+show the variable that you're using for the analysis - if you aren't using the per capita value: don't use that
+Color scale: how to create bins - choose carefully
+His color scale: 'equipopulated': 
  
