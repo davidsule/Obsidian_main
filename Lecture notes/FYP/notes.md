@@ -112,9 +112,17 @@ implement lag (transform string to date and do date operation)
 ##### Open question: Research Question
 - Start with it in the project - why is it useful? Prediction, Govt etc
 - we might compare countries
+
  ##### Task 00
+ 
  Data sources:
  - Project Data
  - Additional Dataset(s)
- 1. Sanity checks, filtering
- 2. Data wrangling (eg. date _effect: add lag) - before actual analysis
+ 
+ Sanity checks, filtering
+ Data wrangling (eg. date _effect: add lag) - before actual analysis
+
+ ##### Task 1
+
+ Single variable analysis - exploratory data analysis
+ 
