@@ -154,5 +154,17 @@ vertical lines: standard deviation or standard error
 folium or anything else
 show the variable that you're using for the analysis - if you aren't using the per capita value: don't use that
 Color scale: how to create bins - choose carefully
-His color scale: 'equipopulated': 
+Bin type examples:
+- **equally** spaced (same bin size)
+
+if you have weirdly distributed data: then equally spaced bins might not be the best: some bins might not have any observations in it, or very low number
+
+His color scale: '**equipopulated**': each bins have the same number of observations in them. - almost always a good choice
+
+Algorithms exist that can find natural breaks in the data (like based on clusters, etc)
+
+Over time - but what did he do her?
+![[Pasted image 20220225172159.png]]
+
+##### Task 4 - Multiple variable analysis
  
