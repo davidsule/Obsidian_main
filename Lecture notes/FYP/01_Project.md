@@ -1,3 +1,14 @@
+
+Ideas for data series to add:
+- control for test numbers
+- airport traffic
+- air pollution / PM 2.5
+- median age
+- share of population in urban areas
+- population attitude (adherence to restrictions)
+- inequality
+
+
 [Our World in Data](ourworldindata.com) - 
 Sources
 - [Pearson correlation](https://www.spss-tutorials.com/pearson-correlation-coefficient/)
