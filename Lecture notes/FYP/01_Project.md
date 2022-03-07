@@ -47,6 +47,10 @@ Binning:
 - '**equipopulated**': each bins have the same number of observations in them. - almost always a good choice
 Algorithms exist that can find natural breaks in the data (like based on clusters, etc)
 
+What about compensating for a variable, like population size, or density:
+- A **cartogram** is a thematic map of a set of features, in which their geographic size is altered to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. (kinda hard in python)
+- Normalize the data (like cases/population)
+
 
 
 ### Lecture 04 - multivariate regression
