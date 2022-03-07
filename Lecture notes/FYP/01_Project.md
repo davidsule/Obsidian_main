@@ -22,13 +22,13 @@ Sources
 - [Fixed Effects](https://lost-stats.github.io/Model_Estimation/OLS/fixed_effects_in_linear_regression.html)
 - [Clustered standard errors](https://www.statology.org/clustered-standard-errors/).
 
-## Project 1
+# Project 1
 Open Question:
 - something that you got interested in while working with on the project
 - get your own data, etc
 - idea: what restrictions did the country implement, how did it affect the case numbers, account for them
 
-### Lecture 02 - Map
+## Lecture 02 - Map
 **Def: Cloropleth map**: A type of thematic map in which a set of predefined areas is colored or patterned in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area
 Advantages:
 - Familiarity
@@ -51,7 +51,7 @@ What about compensating for a variable, like population size, or density:
 - A **cartogram** is a thematic map of a set of features, in which their geographic size is altered to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. (kinda hard in python)
 - Normalize the data (like cases/population)
 
-### Lecture 03 - Associations
+## Lecture 03 - Associations
 #### Correlations
 ##### Pearson correlation coefficient - r
 - Sensitive to outliers
@@ -83,7 +83,7 @@ The formula basically comes down to dividing the covariance by the product of th
  ##### 2. Log transformation (and take Spearman)
  - Care about order of magnitude (not precise values)
  - Get rid of skewedness
- - Can log transform one (either) or both variables
+ - Can log transform one (either) or both variables (log-log)
  - Ofc check distribution (histogram) to check if it is a good solution. Plot histogram of variable and the log of the variable. If the dist. of the (unmodified) variable is normal --> don't log transform. If the the log-transformed dist. is looks more like a normal dist. --> log transform is probably a good idea
 
 
@@ -98,9 +98,22 @@ The formula basically comes down to dividing the covariance by the product of th
 	- 5 sigma (3*10-7): physics
 - **Related to both the strength of the relationship and the number of observations**
 - **NOT** the probability that your hypothesis is untrue. It is the probability the the null hypothesis is true. It doesn't say anything about your hypothesis. The effect could be due to another reason (both the null hypothesis and your hypothesis is untrue)
-- Example: h1: there is linear relationship between X and Y. h0: there is not a linear relationship. Skewed data: High p-values because h0 is correct, the relationship is not linear. --> different h1 for 
+- Example: h1: there is linear relationship between X and Y. h0: there is not a linear relationship. Skewed data: High p-values because h0 is correct, the relationship is not linear. --> different h1 if you need to use log-log
 
-### Lecture 04 - multivariate regression
+#### Multiple Hypotheses testing
+- If you run X tests, you expect one of them to have 1/X p-value by chance (literal meaning of p-value!)
+
+##### Bonferroni Correction
+- if 20 tests will generate a p-value ~0.05 by chance --> that shouldn't be my treshold
+- M & M's example: Do they cause cancer? --> p>0.05, no they don't. But only one color causes it? 20 colors, 20 tests, then
+- We are not asking if the hypothesis is true for each color in isolation. We want the confidence that h0 can be rejected for all of them. - The real h0 is not linked to each color independently
+
+
+
+
+
+
+## Lecture 04 - multivariate regression
 
 ```python
 from statmodels.api as sm
