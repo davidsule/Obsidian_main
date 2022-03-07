@@ -86,9 +86,19 @@ The formula basically comes down to dividing the covariance by the product of th
  - Can log transform one (either) or both variables
  - Ofc check distribution (histogram) to check if it is a good solution. Plot histogram of variable and the log of the variable. If the dist. of the (unmodified) variable is normal --> don't log transform. If the the log-transformed dist. is looks more like a normal dist. --> log transform is probably a good idea
 
-#### Significance: p-value
-- significance 
 
+#### Significance and p-value
+- The probability of obtaining test results at least as extreme as the results actually observed, under the assumption that the **null hypothesis** is correct.  
+- Translation: how likely it is to see this correlation value if there is no relation between X and Y
+- Suggests that no statistical relationship and significance exists in a set of given single observed variable, between two sets of observed data and measured phenomena
+- Significance treshold rule of thumb:
+	- 0.05: loose, used in social science (weak, noisy effects)
+	- 0.01: social science with many observations
+	- 0.001: better benchmark for big data science
+	- 5 sigma (3*10-7): physics
+- **Related to both the strength of the relationship and the number of observations**
+- **NOT** the probability that your hypothesis is untrue. It is the probability the the null hypothesis is true. It doesn't say anything about your hypothesis. The effect could be due to another reason (both the null hypothesis and your hypothesis is untrue)
+- Example: h1: there is linear relationship between X and Y. h0: there is not a linear relationship. Skewed data: High p-values because h0 is correct, the relationship is not linear. --> different h1 for 
 
 ### Lecture 04 - multivariate regression
 
