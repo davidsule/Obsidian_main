@@ -31,6 +31,15 @@ Open Question:
 ### Lecture 02 - Map
 **Def: Cloropleth map**: A type of thematic map in which a set of predefined areas is colored or patterned in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area
 Advantages:
+- Familiarity
+- Simple
+- Easy to read, intuitive
+
+Disadvantages:
+-  (All visualizations) Size of bins/colors can be misused (or mishandled by mistake)
+- (All visualizations: level of aggregation): If you don't use the right 'resolution' (size of areas), you loose context (e.g large city incorporated into a rural area: final value might not be representative of either)
+- Size = importance?! (human perception)
+- Forced location (location: one of the most important tools in visualization. Here, you loose the freedom of )
 
 
 ### Lecture 04 - multivariate regression
