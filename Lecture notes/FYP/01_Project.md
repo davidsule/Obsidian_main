@@ -11,9 +11,8 @@ Ideas for data series to add:
 
 
 [Our World in Data](ourworldindata.com) - 
-(https://www.naturalearthdata.com/)[naturalearthdata.com/] - Map Data
-
-GADM.org
+[naturalearthdata.com/](https://www.naturalearthdata.com/) - Map, Data
+[GADM.org ](https://gadm.org/) - very detailed maps (data, too)
 Sources
 - [Pearson correlation](https://www.spss-tutorials.com/pearson-correlation-coefficient/)
 - [Spearman correlation](https://www.spss-tutorials.com/spearman-rank-correlation/)
