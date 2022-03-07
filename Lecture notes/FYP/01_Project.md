@@ -28,11 +28,7 @@ Open Question:
 - get your own data, etc
 - idea: what restrictions did the country implement, how did it affect the case numbers, account for them
 
-Main question:
-- Is Covid a seasonal desease?
 
-Ex_01:
-- filter by iso3166-2 ??
 
 ### Lecture 04 - multivariate regression
 
