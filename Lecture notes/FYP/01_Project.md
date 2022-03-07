@@ -52,13 +52,14 @@ What about compensating for a variable, like population size, or density:
 - Normalize the data (like cases/population)
 
 ### Lecture 03 - Associations
-
+#### Correlations
 ##### Pearson correlation coefficient - r
 - Sensitive to outliers
 - may or may not indicate causal relationship. Causal relationship may or may not result in correlation.
 - Only linear (See [Anscombe's Quartet and Dino GIF](https://www.autodesk.com/research/publications/same-stats-different-graphs))
 - Slopes fon't matter: Correlation strength != scale of effect
 - Significance != scale of effect
+- Significance test (p-value calculation) assumes independent observations (independent and identically distributed variables)
 
 What is a high correlation: Depends: e.g. social sciences <--> physics
 Pearson correlation between variables X and Y is calculated by  
@@ -70,13 +71,23 @@ The formula basically comes down to dividing the covariance by the product of th
 
 (A covariance is basically an _un_standardized correlation. That is: a covariance is a number that indicates to what extent 2 variables are _linearly_ related. In contrast to a (Pearson) correlation, however, a covariance depends on the scales of both variables involved as expressed by their standard deviations.)
 
-#####  Spearman rank correlation coefficient
+#### What to do with non-linear data?:
+
+#####  1. Spearman rank correlation coefficient
 - Calculate Pearson correlation on the ranks of values (Does the highest value of X correspond the the highest value of Y? Does the 2nd highest value...)
 - Shows monotonous relationships
-- Good for ordinal relationships (ordinal data: categorical, with ordering)
+- Can be used for data that is at least ordinal (ordinal, interval, ratio but not nominal) (ordinal data: categorical, with ordering)
+- As Spearman: significance test (p-value calculation) assumes independent observations
 
 
-Calculate Pearson on the ranks(?)
+ ##### 2. Log transformation (and take Spearman)
+ - Care about order of magnitude (not precise values)
+ - Get rid of skewedness
+ - Can log transform one (either) or both variables
+ - Ofc check distribution (histogram) to check if it is a good solution. Plot histogram of variable and the log of the variable. If the dist. of the (unmodified) variable is normal --> don't log transform. If the the log-transformed dist. is looks more like a normal dist. --> log transform is probably a good idea
+
+#### Significance: p-value
+- significance 
 
 
 ### Lecture 04 - multivariate regression
