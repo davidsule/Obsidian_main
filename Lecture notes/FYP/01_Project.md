@@ -91,7 +91,7 @@ The formula basically comes down to dividing the covariance by the product of th
 - The probability of obtaining test results at least as extreme as the results actually observed, under the assumption that the **null hypothesis** is correct.  
 - Translation: how likely it is to see this correlation value if there is no relation between X and Y
 - Suggests that no statistical relationship and significance exists in a set of given single observed variable, between two sets of observed data and measured phenomena
-- Significance treshold rule of thumb:
+- Significance treshold (alpha) rule of thumb:
 	- 0.05: loose, used in social science (weak, noisy effects)
 	- 0.01: social science with many observations
 	- 0.001: better benchmark for big data science
@@ -105,8 +105,23 @@ The formula basically comes down to dividing the covariance by the product of th
 
 ##### Bonferroni Correction
 - if 20 tests will generate a p-value ~0.05 by chance --> that shouldn't be my treshold
-- M & M's example: Do they cause cancer? --> p>0.05, no they don't. But only one color causes it? 20 colors, 20 tests, then
-- We are not asking if the hypothesis is true for each color in isolation. We want the confidence that h0 can be rejected for all of them. - The real h0 is not linked to each color independently
+- M & M's example: Do they cause cancer? --> p>0.05, no they don't. But only one color causes it? 20 colors, 20 tests, then 0.05 is not the right value. - We are not asking if the hypothesis is true for each color in isolation. We want the confidence that h0 can be rejected for all of them. - The real h0 is not linked to each color independently. h1: the green causes acne. h2: the blue causes acne... h20: the brown causes acne. h0: **None** of h1 .... h20 is true.
+- It should be 0.05/20. (alpha/N)
+**Applies if: Questions are independent**
+
+#### BUT
+If **questions are not independent** of each other: Like weather: temperature and UV-index are not independent
+In that case, Bonferroni is too strict: many alternatives, one of them:
+
+##### Holm-Bonferroni Correction
+- Sort your p-values in ascending order.
+- First p-value: p_1 < alpha/N (normal Bonferroni value) (alpha: significance treshold)
+- 2nd p-value: p_1 < alpha/(N-1) - Because we know that p1 passes (like we didn't run the previous test: we only care about the remaining)
+- and so on ...
+- the last p-value will be compared to alpha itself
+- As soon as one value fails the test, you reject that, and all subsequent p-values.
+
+
 
 
 
