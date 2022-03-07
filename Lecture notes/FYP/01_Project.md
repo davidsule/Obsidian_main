@@ -103,6 +103,7 @@ The formula basically comes down to dividing the covariance by the product of th
 #### Multiple Hypotheses testing
 - If you run X tests, you expect one of them to have 1/X p-value by chance (literal meaning of p-value!)
 - possible names: correction for multiple comparisons, simultaneous inference
+- aim: FWER, family-wise error rate to be under set treshold (alpha)
 
 ##### Bonferroni Correction
 - The Bonferroni threshold is a family-wise error threshold. That is, it treats a set of tests as one _family_, and the threshold is designed to control the probability of detecting _any_ positive tests in the family (set) of tests, if the null hypothesis is true.
