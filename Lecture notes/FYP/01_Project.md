@@ -56,7 +56,7 @@ What about compensating for a variable, like population size, or density:
 ##### Pearson correlation coefficient - r
 - Sensitive to outliers
 - may or may not indicate causal relationship. Causal relationship may or may not result in correlation.
-- Only linear
+- Only linear (See [Anscombe's Quartet and Dino GIF](https://www.autodesk.com/research/publications/same-stats-different-graphs))
 - Slopes fon't matter: Correlation strength != scale of effect
 - Significance != scale of effect
 
@@ -68,7 +68,7 @@ Pearson correlation between variables X and Y is calculated by
   
 The formula basically comes down to dividing the covariance by the product of the standard deviations.
 
-(A covariance is basically an _un_standardized correlation. That is: a covariance is a number that indicates to what extent 2 variables are _linearly_ related. In contrast to a [(Pearson) correlation](https://www.spss-tutorials.com/pearson-correlation-coefficient/), however, a covariance depends on the scales of both variables involved as expressed by their standard deviations.)
+(A covariance is basically an _un_standardized correlation. That is: a covariance is a number that indicates to what extent 2 variables are _linearly_ related. In contrast to a (Pearson) correlation, however, a covariance depends on the scales of both variables involved as expressed by their standard deviations.)
 
 
 
