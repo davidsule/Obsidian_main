@@ -70,6 +70,13 @@ The formula basically comes down to dividing the covariance by the product of th
 
 (A covariance is basically an _un_standardized correlation. That is: a covariance is a number that indicates to what extent 2 variables are _linearly_ related. In contrast to a (Pearson) correlation, however, a covariance depends on the scales of both variables involved as expressed by their standard deviations.)
 
+#####  Spearman rank correlation coefficient
+- Calculate Pearson correlation on the ranks of values (Does the highest value of X correspond the the highest value of Y? Does the 2nd highest value...)
+- Shows monotonous relationships
+- Good for ordinal relationships (ordinal data: categorical, with ordering)
+
+
+Calculate Pearson on the ranks(?)
 
 
 ### Lecture 04 - multivariate regression
