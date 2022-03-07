@@ -127,21 +127,12 @@ Many alternatives, one of them:
 
 
 
+## Lecture 04 - Multivariate Regression Analysis
 
+Let's say we're interested in predicting var Y, we see strong correlation with X, but both could be dependent on Z (eg X: UV radiation up, Y: corona cases down. But both might be moderated by cultural effects: Good weather --> people go outside --> don't crowd inside). Pearson can't handle it. --> Multivariate regression: Control for Z. What is the effect of X, when X changes but Z doesn't (true effect of X). - Investigate the effect of X keeping Z constant.
+- Still investigates **linear relationship**!
+- 
 
-
-
-## Lecture 04 - multivariate regression
-
-```python
-from statmodels.api as sm
-
-# something with add constant
-# then add constatnt column to df
-
-# OLS
-est = sm.OLS
-```
 
 fixed effects by region - why does it matter which region we choose as a deadline
 
