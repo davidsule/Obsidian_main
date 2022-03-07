@@ -184,3 +184,15 @@ DO IT.
 he did one without one with govt intervention
 
 Discussion: assumptions, limitations, conclusions
+
+
+### plot with y error bars
+During the lecture today, you were interested on how I made the plots with the y error bars in slide 14 of lecture 6.
+
+This snippet should help you:
+
+![Code snippet](https://learnit.itu.dk/tokenpluginfile.php/b5731dd30e42ad89bc7105c26ed12e60/295956/mod_forum/post/70893/Screenshot%20from%202022-03-03%2011-35-49.png)
+
+The comments should be sufficient to understand what is going on. In practice, bin the data, calculate some summary statistic of it, and then use pandas.plot() to make a line chart and pass whatever uncertainty measure you have as the "yerr" argument.
+
+("ax" is the standard variable you get from initializing a grid figure in matplotlib, e.g. "fig, ax = plt.subplots(nrows = 2, ncols = 3, figsize = (18, 8))")
