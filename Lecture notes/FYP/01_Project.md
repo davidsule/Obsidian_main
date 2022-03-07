@@ -51,6 +51,8 @@ What about compensating for a variable, like population size, or density:
 - A **cartogram** is a thematic map of a set of features, in which their geographic size is altered to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. (kinda hard in python)
 - Normalize the data (like cases/population)
 
+### Lecture 03 - Associations
+
 
 
 ### Lecture 04 - multivariate regression
