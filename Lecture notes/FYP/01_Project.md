@@ -104,14 +104,15 @@ The formula basically comes down to dividing the covariance by the product of th
 - If you run X tests, you expect one of them to have 1/X p-value by chance (literal meaning of p-value!)
 
 ##### Bonferroni Correction
+- The Bonferroni threshold is a family-wise error threshold. That is, it treats a set of tests as one _family_, and the threshold is designed to control the probability of detecting _any_ positive tests in the family (set) of tests, if the null hypothesis is true.
 - if 20 tests will generate a p-value ~0.05 by chance --> that shouldn't be my treshold
 - M & M's example: Do they cause cancer? --> p>0.05, no they don't. But only one color causes it? 20 colors, 20 tests, then 0.05 is not the right value. - We are not asking if the hypothesis is true for each color in isolation. We want the confidence that h0 can be rejected for all of them. - The real h0 is not linked to each color independently. h1: the green causes acne. h2: the blue causes acne... h20: the brown causes acne. h0: **None** of h1 .... h20 is true.
 - It should be 0.05/20. (alpha/N)
-**Applies if: Questions are independent**
+Applies if: Questions are independent. If they aren't, it is too strict.
 
 #### BUT
-If **questions are not independent** of each other: Like weather: temperature and UV-index are not independent
-In that case, Bonferroni is too strict: many alternatives, one of them:
+If **questions are not independent of each other: Bonferroni is too strict:**  (Like weather: temperature and UV-index are not independent)
+Many alternatives, one of them:
 
 ##### Holm-Bonferroni Correction
 - Sort your p-values in ascending order.
