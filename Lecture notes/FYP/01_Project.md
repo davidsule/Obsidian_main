@@ -39,7 +39,14 @@ Disadvantages:
 -  (All visualizations) Size of bins/colors can be misused (or mishandled by mistake)
 - (All visualizations: level of aggregation): If you don't use the right 'resolution' (size of areas), you loose context (e.g large city incorporated into a rural area: final value might not be representative of either)
 - Size = importance?! (human perception)
-- Forced location (location: one of the most important tools in visualization. Here, you loose the freedom of )
+- Forced location (location: one of the most important tools in visualization. Here, you loose the freedom of using it as a tool. But, exactly this is the reason for familiarity)
+- Easy to misread
+
+Binning:
+- **equally spaced** (same bin size)
+- '**equipopulated**': each bins have the same number of observations in them. - almost always a good choice
+Algorithms exist that can find natural breaks in the data (like based on clusters, etc)
+
 
 
 ### Lecture 04 - multivariate regression
