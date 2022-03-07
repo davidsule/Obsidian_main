@@ -28,6 +28,9 @@ Open Question:
 - get your own data, etc
 - idea: what restrictions did the country implement, how did it affect the case numbers, account for them
 
+### Lecture 02 - Map
+**Def: Cloropleth map**: A type of thematic map in which a set of predefined areas is colored or patterned in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area
+Advantages:
 
 
 ### Lecture 04 - multivariate regression
