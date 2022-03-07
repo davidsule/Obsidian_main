@@ -196,3 +196,11 @@ This snippet should help you:
 The comments should be sufficient to understand what is going on. In practice, bin the data, calculate some summary statistic of it, and then use pandas.plot() to make a line chart and pass whatever uncertainty measure you have as the "yerr" argument.
 
 ("ax" is the standard variable you get from initializing a grid figure in matplotlib, e.g. "fig, ax = plt.subplots(nrows = 2, ncols = 3, figsize = (18, 8))")
+
+
+Ideas for presentation:
+- deal with testing outliers?
+- cases/pop and testing comparison? --> rather cases/pop and test/pop
+- is /pop needed?
+- log(cases/pop) or log(cases) / pop?
+- Open question: hypothesis: pm2.5 --> covid, testing effect on covid
