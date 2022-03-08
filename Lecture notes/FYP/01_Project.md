@@ -290,12 +290,13 @@ The comments should be sufficient to understand what is going on. In practice, b
 ("ax" is the standard variable you get from initializing a grid figure in matplotlib, e.g. "fig, ax = plt.subplots(nrows = 2, ncols = 3, figsize = (18, 8))")
 
 
-Ideas for presentation:
+Ideas:
 - deal with testing outliers?
 - cases/pop and testing comparison? --> rather cases/pop and test/pop
 - Fixed effects?
 - Clustering coefficient?
 - Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
+- standard error line plot: per population aggregated the wrong way (mean of cases/pop)
 
 Be prepared for presentation:
 - how and why can test and pm2.5 affect case numbers (especially test!)
