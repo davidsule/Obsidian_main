@@ -295,11 +295,11 @@ Ideas:
 - cases/pop and testing comparison? --> rather cases/pop and test/pop
 - Fixed effects?
 - Clustering coefficient?
-- Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
+- DONE Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
 - standard error line plot: per population aggregated the wrong way (mean of cases/pop)
 
 
-- Check 
+- (FOR ME)! Check Maps/setup!!!
 
 Be prepared for presentation:
 - how and why can test and pm2.5 affect case numbers (especially test!)
