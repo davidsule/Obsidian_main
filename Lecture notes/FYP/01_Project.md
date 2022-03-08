@@ -313,3 +313,7 @@ Questions:
 - Multivariate regression: how were regions taken into account? (when he first showed it to us?)
 
 - log(cases/pop) or log(cases) / pop? (why not?)
+
+
+Notes:
+- Adding fixed effects makes windspeed significant, too
