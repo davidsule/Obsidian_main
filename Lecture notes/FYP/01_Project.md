@@ -298,6 +298,9 @@ Ideas:
 - Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
 - standard error line plot: per population aggregated the wrong way (mean of cases/pop)
 
+
+- Check 
+
 Be prepared for presentation:
 - how and why can test and pm2.5 affect case numbers (especially test!)
 - explain timelag, reasons
