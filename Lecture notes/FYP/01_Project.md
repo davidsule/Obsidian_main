@@ -300,6 +300,7 @@ Ideas for presentation:
 Be prepared for presentation:
 - how and why can test and pm2.5 affect case numbers (especially test!)
 - explain timelag, reasons
+- 
 - state hypotheses (and h0) precisely
 
 Questions:
