@@ -296,3 +296,9 @@ Ideas for presentation:
 - is /pop needed?
 - log(cases/pop) or log(cases) / pop?
 - Open question: hypothesis: pm2.5 --> covid, testing effect on covid
+
+
+
+Questions:
+- fixed effects by region - why does it matter which region we choose as a baseline?
+- Multivariate regression: how were regions taken into account? (when he first showed ut to us?)
