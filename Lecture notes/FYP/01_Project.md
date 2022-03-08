@@ -305,3 +305,5 @@ Questions:
 - fixed effects by region - why does it matter which region we choose as a baseline?
 - Multivariate regression: how were regions taken into account? (when he first showed it to us?)
 - R^2: why is cases per capita harder to explain for the model?
+- Maybe correct outliers in test data?
+- Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
