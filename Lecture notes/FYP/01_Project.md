@@ -293,17 +293,18 @@ The comments should be sufficient to understand what is going on. In practice, b
 Ideas for presentation:
 - deal with testing outliers?
 - cases/pop and testing comparison? --> rather cases/pop and test/pop
-- is /pop needed?
-- log(cases/pop) or log(cases) / pop?
-- Open question: hypothesis: pm2.5 --> covid, testing effect on covid
+- Fixed effects?
+- Clustering coefficient?
+- Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
 
-
+Be prepared for presentation:
+- how and why can test and pm2.5 affect case numbers (especially test!)
+- explain timelag, reasons
+- state hypotheses (and h0) precisely
 
 Questions:
-- Fixed effects!
-- Clustering coefficient
+- R^2: why is cases per capita harder to explain for the model?
 - fixed effects by region - why does it matter which region we choose as a baseline?
 - Multivariate regression: how were regions taken into account? (when he first showed it to us?)
-- R^2: why is cases per capita harder to explain for the model?
-- Maybe correct outliers in test data?
-- Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
+
+- log(cases/pop) or log(cases) / pop? (why not?)
