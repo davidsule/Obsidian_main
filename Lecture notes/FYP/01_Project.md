@@ -297,6 +297,8 @@ Ideas:
 - Clustering coefficient?
 - DONE Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
 - standard error line plot: per population aggregated the wrong way (mean of cases/pop)
+- histogram for tests and PM? log?
+- Didn't we do the multiv. reg. with daily at the end when it is not good for 
 
 
 - (FOR ME)! Check Maps/setup!!!
