@@ -130,11 +130,13 @@ Many alternatives, one of them:
 ## Lecture 04 - Multivariate Regression Analysis
 
 Let's say we're interested in predicting var Y, we see strong correlation with X, but both could be dependent on Z (eg X: UV radiation up, Y: corona cases down. But both might be moderated by cultural effects: Good weather --> people go outside --> don't crowd inside). Pearson can't handle it. --> Multivariate regression: Control for Z. What is the effect of X, when X changes but Z doesn't (true effect of X). - Investigate the effect of X keeping Z constant.
-- Still investigates **linear relationship**!
-- 
+- Still investigates **linear relationships**!
+- Finding all confounding (Zs) factors is hard.
+- Some controls are bad! (stuffing everything in the model is not a good strategy) 
 
 
-fixed effects by region - why does it matter which region we choose as a deadline
+
+fixed effects by region - why does it matter which region we choose as a baseline?
 
 ## Lecture 05 - Interventions
 
