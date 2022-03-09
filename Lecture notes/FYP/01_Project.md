@@ -291,32 +291,20 @@ The comments should be sufficient to understand what is going on. In practice, b
 
 
 Ideas:
-- deal with testing outliers?
+- DONE deal with testing outliers?
 - DONE cases/pop and testing comparison? --> rather cases/pop and test/pop
 - DONE Fixed effects?
 - DONE Clustered standard error
 - DONE Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
 - standard error line plot: per population aggregated the wrong way (mean of cases/pop)
-- histogram for tests and PM? log?
-- Didn't we do the multiv. reg. with daily at the end when it is not good (weekend). 
 - DONE - log transform tests
 - DONE - log transform Weights
 - check distriubution of weeks!
 - const missing from main OLS!!
   
-Pm2 5: alternative health measure  
-Test: supply isn't elastic, leading or lagging indicator  
-7 day shift (theory and practice)  
-Log transform  
-Improvements
 
-- (FOR ME)! Check Maps/setup!!!
 
-Be prepared for presentation:
-- how and why can test and pm2.5 affect case numbers (especially test!)
-- explain timelag, reasons
-- 
-- state hypotheses (and h0) precisely
+
 
 Questions:
 - R^2: why is cases per capita harder to explain for the model?
