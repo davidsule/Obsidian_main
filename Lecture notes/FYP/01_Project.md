@@ -300,7 +300,7 @@ Ideas:
 - histogram for tests and PM? log?
 - Didn't we do the multiv. reg. with daily at the end when it is not good (weekend). 
 - log transform tests?
-
+- check distriubution of weeks!
 
   
 Pm2 5: alternative health measure  
