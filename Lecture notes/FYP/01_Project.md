@@ -292,9 +292,9 @@ The comments should be sufficient to understand what is going on. In practice, b
 
 Ideas:
 - deal with testing outliers?
-- cases/pop and testing comparison? --> rather cases/pop and test/pop
-- Fixed effects?
-- Clustering coefficient?
+- DONE cases/pop and testing comparison? --> rather cases/pop and test/pop
+- DONE Fixed effects?
+- DONE Clustered standard error
 - DONE Bonferoni correction: both UV and log UV? (ok for Bonferroni but not ok for Holm-Bonferroni)
 - standard error line plot: per population aggregated the wrong way (mean of cases/pop)
 - histogram for tests and PM? log?
