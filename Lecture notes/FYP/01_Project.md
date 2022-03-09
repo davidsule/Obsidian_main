@@ -301,6 +301,13 @@ Ideas:
 - Didn't we do the multiv. reg. with daily at the end when it is not good (weekend). 
 
 
+  
+Pm2 5: alternative health measure  
+Test: supply isn't elastic, leading or lagging indicator  
+7 day shift (theory and practice)  
+Log transform  
+Improvements
+
 - (FOR ME)! Check Maps/setup!!!
 
 Be prepared for presentation:
