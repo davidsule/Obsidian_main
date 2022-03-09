@@ -299,7 +299,8 @@ Ideas:
 - standard error line plot: per population aggregated the wrong way (mean of cases/pop)
 - histogram for tests and PM? log?
 - Didn't we do the multiv. reg. with daily at the end when it is not good (weekend). 
-- DONE - log transform tests?
+- DONE - log transform tests
+- DONE - log transform Weights
 - check distriubution of weeks!
 - const missing from main OLS!!
   
