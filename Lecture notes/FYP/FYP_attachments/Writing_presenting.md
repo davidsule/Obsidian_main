@@ -17,7 +17,23 @@ Solution: [https://archive.org/web/ - Save Page -> archive, share Internet archi
 
 ### LaTeX tips
 
-   `\usepackage{algorithmic}` for pseudocode
-   `pandas.DataFrame.to_latex` to generate .tex file for tables from pandas DF
-   `\input{table.tex}` to import the above it into latex 
-   
+`\usepackage{algorithmic}` for pseudocode
+`pandas.DataFrame.to_latex` to generate .tex file for tables from pandas DF
+`\input{table.tex}` to import the above it into latex
+
+Define your own commands:
+
+- Highlight what still needs to be done (alternative to `\usepackage{todonotes}`)
+```TeX
+% Define custom command
+\usepackage{color}  
+\definecolor{myred}{rgb}{.8,.0,.0}  
+\newcommand{\todo}[1]{\textcolor{myred}{#1}}
+% USe custom command
+\todo{Write the abstract}
+```
+- Some acronyms/names/values that might change (For example, if you call your method LesionKNN and decide to  rename to skin-lesion-knn). When inserting the command, it will always input your text there. So: Enough to change the name in the command definition and it will change everywhere.
+```LaTeX
+\newcommand{\ourmethod}{\texttt{skin-lesion-knn}}
+% when calling the command, it isnert the text. Change the text, it will change everywhere.
+```
