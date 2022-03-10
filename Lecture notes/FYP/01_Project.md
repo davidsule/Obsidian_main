@@ -188,11 +188,21 @@ BUT most often fixed effect is just a control - put it in, but ignore it's resul
 
 (Is the coefficient a ratio (divide intercept of the region with the intercept of the reference region), or an absolute value? - he didn't know. If you're just using it as a control: doesn't matter.)
 
+#### Clustered Standard Errors (CSE)
+![[Pasted image 20220310181010.png]]
 
+Here, you're lying to your model. We tell the model that we have 12 independent observations. Not true! we have 3!
 
+Standard error: How sure are you about the estimation?
+![[Pasted image 20220310181319.png]]
+More observations -> more confidence
+![[Pasted image 20220310181349.png]]
+But not if they're part of the same group!
+![[Pasted image 20220310181449.png]]
 
-
-
+Clustering Standard Errors: doing this operation, we take belonging to group into account.
+If new observations are truly independent observations -> CSE won't affect standard error.
+R^2 and coefficients won't change. It changes the std.err. (and t, and p)
 
 
 ## Lecture 05 - Interventions
@@ -363,12 +373,7 @@ Ideas:
 
 
 
-Questions:
-- R^2: why is cases per capita harder to explain for the model?
-- fixed effects by region - why does it matter which region we choose as a baseline?
-- Multivariate regression: how were regions taken into account? (when he first showed it to us?)
-
-- log(cases/pop) or log(cases) / pop? (why not?)
+?)
 
 
 Notes:
