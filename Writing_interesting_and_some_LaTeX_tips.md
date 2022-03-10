@@ -21,8 +21,7 @@ Solution: [https://archive.org/web/ - Save Page -> archive, share Internet archi
 `pandas.DataFrame.to_latex` to generate .tex file for tables from pandas DF
 `\input{table.tex}` to import the above it into latex
 
-Define your own commands:
-
+**Define your own commands:**
 - Highlight what still needs to be done (alternative to `\usepackage{todonotes}`)
 ```TeX
 % Define custom command
@@ -37,3 +36,17 @@ Define your own commands:
 \newcommand{\ourmethod}{\texttt{skin-lesion-knn}}
 % when calling the command, it isnert the text. Change the text, it will change everywhere.
 ```
+
+Push to Github for version control (after main changes)
+
+Organize files:
+- different files for different sections:
+	- avoid conflicts
+	- easy to find bug (if it doesn't compile, you just comment out sections in main document file and see which one is causing the error)
+	- include in main: `\input{section_file.tex}` 
+- (folder for images)
+
+References:
+- local references: refs.bib
+- bibliography managers
+- Use naming conventions: Google scholar's format: `\cite{cheplygina2019cats}` last name of first author + year + first informative word
