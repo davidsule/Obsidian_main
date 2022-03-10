@@ -128,7 +128,7 @@ Many alternatives, one of them:
 
 
 ## Lecture 04 - Multivariate Regression Analysis
-
+#### OLS - general
 Let's say we're interested in predicting var Y, we see strong correlation with X, but both could be dependent on Z (eg X: UV radiation up, Y: corona cases down. But both might be moderated by cultural effects: Good weather --> people go outside --> don't crowd inside). Pearson can't handle it. --> Multivariate regression: Control for Z. What is the effect of X, when X changes but Z doesn't (true effect of X). - Investigate the effect of X keeping Z constant.
 - Still investigates **linear relationships**!
 - Finding all confounding (Zs) factors is hard.
@@ -156,6 +156,10 @@ t-score: How many standard errors (deviations) is the coefficient from 0? (coeff
 We can convert t scores to p values (Mark the values corresponding to the t score on the Student t distribution - bell curve but heavier tails than normal dist - and the area under the curve outside of the marked range - towards the tails - is the p-value. Might be a tad more complicated).
 
 p-values: well, p-values...
+
+About cases per capita: We could just use population as a control (variable) (and just take cases as the y variable. By instead calculating cases/capita, we say that we 'know' what the coefficient is: we fix it to be -1. Basically, we constraining our result for the sake of interpretability.
+
+#### Fixed Effects
 
 
 
@@ -233,7 +237,7 @@ change date format
 implement lag (transform string to date and do date operation)
 ![[Pasted image 20220217112920.png]]
 
-## Lecture 6 - Interventions
+## Lecture 6 - Project runthrough
 
 ##### Open question: Research Question
 - Start with it in the project - why is it useful? Prediction, Govt etc
@@ -259,7 +263,7 @@ implement lag (transform string to date and do date operation)
  .. or you can just use Spearman
  (other transformations: not part of curriculum)
 
- Problem w/ Spearmn: unclear how to translate it when you do the multiple regression analysis
+ Problem w/ Spearman: unclear how to translate it when you do the multiple regression analysis
 
  Interventions: not necessarily fixed effects.
  Numeric analysis: problem: if 4 levels (0-3) is 3 3x as strict as 1? - probably they are qualitatively different, not quantitatively diff.
