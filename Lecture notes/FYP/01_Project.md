@@ -136,7 +136,20 @@ Let's say we're interested in predicting var Y, we see strong correlation with X
 - Some controls are bad! 
 - Won't tell you the direction of causality
 
-Select the features included in the model. 
+Select the features included in the model. Investigate correlation between variable 'taking away' the explanation power of all the other variables. With all other variables being constant, what is the effect of that variable changing. Why? Example: High correlation between UV radian and corona cases, but maybe a third effect is causing both. Taking away the effect of that, the correlation between UV and corona might be very low.
+
+We need to specifically add constant (also in list of variables)
+Constant: baseline rate. Everything else being, what is the expected number of cases. Corresponds to the intercept (where regression line crosses y axes, but we are in multi-dimensional space). (Coefficient will be the slope). (This constant is also sometimes called the intercept). R does this automatically. Statmodels in Python doesn't.
+
+We use **Ordinary Least Squares regression** model (OLS)
+
+Adjusted R^2: (adjusted bc we use several variables - ofc real explanation is more complicated). Estimation of how much of the variation of the y variable are we explaining. Between 0 and 1. 1 would mean that you perfectly predict the result with your variables. Impossible.
+Even low R^2 can be interesting but ofc a model with higher R^2 is preferable. As long as you're not over fitting the model or include variables that have a very obvious relationship.
+How well the model fits the data, not necessarily that the variables you're interested in are doing a good job.
+
+Coefficients: Relationship of x and y variable. Sign: positive or negative relationship. Number is **not** the tightness of the relationship **but the scale of the effect** --> low value might be caused by the difference in units.
+
+Std.Err: estimated _standard deviation_ of the error
 
 
 ## Lecture 05 - Interventions
