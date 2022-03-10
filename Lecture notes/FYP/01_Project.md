@@ -149,7 +149,15 @@ How well the model fits the data, not necessarily that the variables you're inte
 
 Coefficients: Relationship of x and y variable. Sign: positive or negative relationship. Number is **not** the tightness of the relationship **but the scale of the effect** --> low value might be caused by the difference in units.
 
-Std.Err: estimated _standard deviation_ of the error
+Std.Err: estimated _standard deviation_ of the error. For example if 0 is within 1 standard error (deviation) from the correlation value, we know that we can't reject h0.
+
+t-score: How many standard errors (deviations) is the coefficient from 0? (coefficient divided by std err). The higher the t-score, the lower the p-value.
+
+We can convert t scores to p values (Mark the values corresponding to the t score on the Student t distribution - bell curve but heavier tails than normal dist - and the area under the curve outside of the marked range - towards the tails - is the p-value. Might be a tad more complicated).
+
+p-values: well, p-values...
+
+
 
 
 ## Lecture 05 - Interventions
