@@ -160,6 +160,27 @@ p-values: well, p-values...
 About cases per capita: We could just use population as a control (variable) (and just take cases as the y variable. By instead calculating cases/capita, we say that we 'know' what the coefficient is: we fix it to be -1. Basically, we constraining our result for the sake of interpretability.
 
 #### Fixed Effects
+Sometimes you know that something affected your outcome. But you don't have any measure for it.
+Example: Different local governments work differently (strategy, effectiveness, etc). Different regions have different characteristics (density, healthcare etc)
+
+You know that observations belong to specific group -> each group has it's own baseline (the avg of each group is fixed).
+Everything that this group differently is captured here.
+
+![[Pasted image 20220310174744.png]]
+
+Corr ~0.8, best fit, but something fishy.
+
+Color each line based on belonging to group and implement fixed effects.
+Same slope, different intercept. the real relationship is actually negative!
+What is the baseline effect of belonging to that group?
+
+![[Pasted image 20220310174640.png]]
+
+
+In R, it's automatic, just pass a categorical variable to the regression function
+In Python, add a dummy variable, one variable per group. 1 if observation
+
+
 
 
 
