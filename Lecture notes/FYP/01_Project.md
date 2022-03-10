@@ -178,7 +178,17 @@ What is the baseline effect of belonging to that group?
 
 
 In R, it's automatic, just pass a categorical variable to the regression function
-In Python, add a dummy variable, one variable per group. 1 if observation
+In Python, add a dummy variable, one variable per group. 1 if observation belongs to group, 0 otherwise. Omit one group, the reference group, whose intercept will be captured by the aforementioned constant (see above).
+
+Coefficient tells you the effect of being part of the group. Specifically, the difference between your group and the reference one. Positive coef. -> being in this group is associated with an increase in y compared to the reference group.
+
+If it important to your research question, you can interpret it, but it absorbs everything, so you cannot be sure which characteristic is causing the difference.
+
+BUT most often fixed effect is just a control - put it in, but ignore it's results - we're just abstracting away effects not otherwise studied.
+
+(Is the coefficient a ratio (divide intercept of the region with the intercept of the reference region), or an absolute value? - he didn't know. If you're just using it as a control: doesn't matter.)
+
+
 
 
 
