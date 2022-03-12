@@ -217,7 +217,7 @@ Possible sources:
 - Wikipedia: like GDP/capita, covid measures like lockdowns (incl. time periods), NLP crawlers etc
 - Google Scholar
 - Shared data ftom journals (see slides for sources)
-- globaldatabank.org: subnational level data, too (eg HDI, health index, gender equality)
+- [gdb.net](gdb.net) GlobalDataBank: subnational level data, too (eg HDI, health index, gender equality)
 - World bank, European institutions
 - ourworldindata.org (only country level :( )
 - (my own note: Google Database search)
