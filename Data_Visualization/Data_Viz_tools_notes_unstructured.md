@@ -7,3 +7,6 @@ Interactive history of chart: [history.infowetrust.com/](https://history.infowet
 
 WTF charts  [https://viz.wtf/](https://viz.wtf/)
 
+
+Chart types from the FT
+![[FT_chart types.pdf]]
