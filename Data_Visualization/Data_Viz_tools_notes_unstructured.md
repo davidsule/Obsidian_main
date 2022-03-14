@@ -11,3 +11,7 @@ WTF charts  [https://viz.wtf/](https://viz.wtf/)
 
 Chart types from the FT - Charts that work - Visual Vocabulary
 ![[FT_chart types.pdf]]
+
+
+
+
