@@ -1,4 +1,4 @@
-**Google Dataset Search**: [datasetsearch.research.google.com/](https://datasetsearch.research.google.com/)
+**Google Dataset Search**: (sources include GitHub, too) [datasetsearch.research.google.com/](https://datasetsearch.research.google.com/)
 
 **World Bank Open Data**: Free and open access to global development data [data.worldbank.org/](https://data.worldbank.org/) 
 

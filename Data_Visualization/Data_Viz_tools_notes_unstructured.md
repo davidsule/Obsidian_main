@@ -22,4 +22,4 @@ Chart types from the FT - Charts that work - Visual Vocabulary
 - [chartmaker.visualisingdata.com/](http://chartmaker.visualisingdata.com/) - Andy Kirk - what chart can be made by which tools, and examples for all
 - [xeno.graphics/](https://xeno.graphics/) - unusual chart types - Maarten Lambrechts
 
-
+![[Pasted image 20220314213822.png]]
