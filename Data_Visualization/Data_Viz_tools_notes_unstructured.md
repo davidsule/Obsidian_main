@@ -12,6 +12,14 @@ WTF charts  [https://viz.wtf/](https://viz.wtf/)
 Chart types from the FT - Charts that work - Visual Vocabulary
 ![[FT_chart types.pdf]]
 
+**Some libraries:  / explore chart types, select tools**
+![[Pasted image 20220314212520.png]]
 
+- [datavizproject.com/](https://datavizproject.com/) - maybe most exhaustive, (Danish esign agency!)
+- [visualcomplexity.com/vc/](http://www.visualcomplexity.com/vc/) - Manuel Lima
+- [datavizcatalogue.com/](https://datavizcatalogue.com/) - a classic
+- [dataviz.tools/](http://dataviz.tools/)
+- [chartmaker.visualisingdata.com/](http://chartmaker.visualisingdata.com/) - Andy Kirk - what chart can be made by which tools, and examples for all
+- [xeno.graphics/](https://xeno.graphics/) - unusual chart types - Maarten Lambrechts
 
 
