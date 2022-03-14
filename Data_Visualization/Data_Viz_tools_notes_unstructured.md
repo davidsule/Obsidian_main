@@ -22,4 +22,18 @@ Chart types from the FT - Charts that work - Visual Vocabulary
 - [chartmaker.visualisingdata.com/](http://chartmaker.visualisingdata.com/) - Andy Kirk - what chart can be made by which tools, and examples for all
 - [xeno.graphics/](https://xeno.graphics/) - unusual chart types - Maarten Lambrechts
 
+**Tools (bit outdated):**
+
+![[Pasted image 20220314215415.png]]
+
 ![[Pasted image 20220314213822.png]]
+
+
+   
+-   **RAW graphs** (open source) [rawgraphs.io](http://rawgraphs.io)
+-   **Datawrapper** [https://www.datawrapper.de/](https://www.datawrapper.de/)
+
+- **RAW** is barebones, built to democratize D3.js. Produces vector files.
+- **Datawrapper** bit mor extensive, bit more full-fledged. Almost built like 'software as a teacher' - almost nudges you to do some stuff, like checks for color accessibility. Can be connected to live data. You can see other people's highlighted projects in a feed. Can be connected to live data. Free, starts charging for embedding and widespread sharing
+These are little Swiss army knives for small quick  
+stuff and they do some niche chart types that Tableau doesn't do easily
