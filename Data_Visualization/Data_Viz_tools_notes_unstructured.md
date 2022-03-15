@@ -1,3 +1,6 @@
+https://colorbrewer2.org - select colour schemes
+http://vischeck.com/ - simulates colourblind vision (check your colours - roughly 10% of men is red-green colour deficient)
+
 [Cyctoscape](https://cytoscape.org/) Network graphing tool - open source
 Python seaborn library
 Flourish https://flourish.studio/
