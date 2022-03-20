@@ -42,3 +42,5 @@ These are little Swiss army knives for small quick
 stuff and they do some niche chart types that Tableau doesn't do easily
 
 https://twotone.io/ - encode data into sound
+
+https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/
