@@ -40,3 +40,5 @@ Chart types from the FT - Charts that work - Visual Vocabulary
 - **Datawrapper** bit mor extensive, bit more full-fledged. Almost built like 'software as a teacher' - almost nudges you to do some stuff, like checks for color accessibility. Can be connected to live data. You can see other people's highlighted projects in a feed. Can be connected to live data. Free, starts charging for embedding and widespread sharing
 These are little Swiss army knives for small quick  
 stuff and they do some niche chart types that Tableau doesn't do easily
+
+https://twotone.io/ - encode data into sound
