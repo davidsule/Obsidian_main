@@ -24,6 +24,7 @@ Chart types from the FT - Charts that work - Visual Vocabulary
 - [dataviz.tools/](http://dataviz.tools/)
 - [chartmaker.visualisingdata.com/](http://chartmaker.visualisingdata.com/) - Andy Kirk - what chart can be made by which tools, and examples for all
 - [xeno.graphics/](https://xeno.graphics/) - unusual chart types - Maarten Lambrechts
+- [annkemery.com/essentials/](annkemery.com/essentials/)  Ann K. Emery’s Essentials website:
 
 **Tools (bit outdated):**
 
