@@ -25,4 +25,8 @@ Features for skin cancer:
 
 #### A
 
-Fols image, how much overlap (deduct one from other). Add up deducted
+Fols image, how much overlap (deduct one from other). Add up deducted pixels --> the more, the more assymetric
+
+#### B:
+slide 16
+
