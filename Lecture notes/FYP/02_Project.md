@@ -44,3 +44,5 @@ reduce size: erosion - depends on disc size
 
 # Project notes:
 Original measurement for A: 0, 1, 2 but if we do that, we can't compare it to automatic (automatic cannot be 0 1 2 because we could only do that based on percentiles within measurement values)
+
+Symmetry: We need rotational symmetry, not mirror symmetry (or how it is called)
