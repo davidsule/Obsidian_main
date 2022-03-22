@@ -44,5 +44,6 @@ stuff and they do some niche chart types that Tableau doesn't do easily
 
 https://twotone.io/ - encode data into sound
 
-https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/ - discriminability, perception of maps
-https://www.csc2.ncsu.edu/faculty/healey/PP/ - use of popout for pre-attentive processing
+https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/ - discriminability, perception of maps - [Internet Archive - WayBack machine version](https://web.archive.org/web/20220322165518/https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/)
+
+https://www.csc2.ncsu.edu/faculty/healey/PP/ - use of popout for pre-attentive processing [Internet Archive - WayBack machine version](https://web.archive.org/web/20220322165516/https://www.csc2.ncsu.edu/faculty/healey/PP/)
