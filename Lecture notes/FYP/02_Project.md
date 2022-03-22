@@ -31,3 +31,11 @@ Scale: 0, 1, 2: 0 (round numbers) more or less symmetric, 2: very asymmetric
 #### B:
 slide 16
 
+Measuring asymmetry:
+- either rotate the image, make several measurement (different angles) and choose the one with largest height (diameter). But, because of rotation, add padding
+- adopt a convention (but what is it?)
+
+Perimeter and morphology:
+- remove 'salt and pepper' noise: reduce too much fuzziness on micro scale on the border? with disc method. (creates a circle mask? 'brush')
+
+reduce size: erosion - depends on disc size
