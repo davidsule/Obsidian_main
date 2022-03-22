@@ -26,6 +26,7 @@ Features for skin cancer:
 #### A
 
 Fols image, how much overlap (deduct one from other). Add up deducted pixels --> the more, the more assymetric
+Scale: 0, 1, 2: 0 (round numbers) more or less symmetric, 2: very asymmetric
 
 #### B:
 slide 16
