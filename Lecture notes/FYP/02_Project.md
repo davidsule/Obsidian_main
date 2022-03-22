@@ -16,3 +16,13 @@ Pixel border: not fancy algorithm to find out the border but:
 - subtract the smaller image from larger
 - sum pixel values
 
+Features for skin cancer:
+- A: cancerous more assymetric
+- B: more fuzzy
+- C: more variety (and more blue - several type of measuremeents)
+- D: diameter - we don't have scale, so we don't no real size + we can't compare different bodyparts
+- E: 
+
+#### A
+
+Fols image, how much overlap (deduct one from other). Add up deducted
