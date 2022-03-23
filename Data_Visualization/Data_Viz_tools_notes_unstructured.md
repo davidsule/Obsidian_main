@@ -1,6 +1,13 @@
 https://colorbrewer2.org - select colour schemes
 http://vischeck.com/ - simulates colourblind vision (check your colours - roughly 10% of men is red-green colour deficient)
 
+   
+
+Create your own color palette:
+- [https://colorbrewer2.org](https://colorbrewer2.org)
+- I Want Hue (good!!) [https://medialab.sciencespo.fr/en/tools/i-want-hue/](https://medialab.sciencespo.fr/en/tools/i-want-hue/)
+- Adobe: [https://color.adobe.com/create/color-wheel](https://color.adobe.com/create/color-wheel)
+
 [Cyctoscape](https://cytoscape.org/) Network graphing tool - open source
 Python seaborn library
 Flourish https://flourish.studio/
