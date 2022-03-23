@@ -54,3 +54,8 @@ https://twotone.io/ - encode data into sound
 https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/ - discriminability, perception of maps - [Internet Archive - WayBack machine version](https://web.archive.org/web/20220322165518/https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/)
 
 https://www.csc2.ncsu.edu/faculty/healey/PP/ - use of popout for pre-attentive processing [Internet Archive - WayBack machine version](https://web.archive.org/web/20220322165516/https://www.csc2.ncsu.edu/faculty/healey/PP/)
+
+
+Communities around dataViz (data also available)
+- Tableau Public (pusblish w/ licence, view for anyone)
+- MakeOverMonday: dead, but back catalog available 
