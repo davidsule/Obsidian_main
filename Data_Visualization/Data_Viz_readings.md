@@ -8,3 +8,4 @@
 6. **Show Me the Numbers: Designing Tables and Graphs to Enlighten**, Stephen Few (2nd edition, 2012)
 7. **The elements of graphing data**, Cleveland, *About the hierarchy of elementary perceptual tasks, I'm not sure if this is a good reading about practical stuff?*
 8. David Mccandless's books and projects (not to teach you but to inspire - beautiful visualizations of fascinating things)
+9.  **The Visual Display of Quantitative Information** (2nd edition). Tufte, E. R. (2001). *classic*
