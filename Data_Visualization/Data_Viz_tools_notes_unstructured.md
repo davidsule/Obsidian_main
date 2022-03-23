@@ -59,3 +59,6 @@ https://www.csc2.ncsu.edu/faculty/healey/PP/ - use of popout for pre-attentive p
 Communities around dataViz (data also available)
 - Tableau Public (pusblish w/ licence, view for anyone)
 - MakeOverMonday: dead, but back catalog available 
+- https://data.world/makeovermonday/
+
+Makover Monday: Ugly graphs redone in a nice way, dataset available for you to do your own makover: https://data.world/makeovermonday/
