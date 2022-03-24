@@ -64,3 +64,13 @@ Communities around dataViz (data also available)
 Makover Monday: Ugly graphs redone in a nice way, dataset available for you to do your own makover: https://data.world/makeovermonday/
 
 Amazing vizualizations, examples, (coffee table) book(s), data repistory (and I guess vizualizations he did) maybe even stuff to learn: David McCandless
+
+
+Other data sources you can explore:
+- Makeover Monday Archive http://www.makeovermonday.co.uk/data/
+- David McCandless Repository https://informationisbeautiful.net/data/
+- CPH Open Data https://data.kk.dk
+- Google Dataset Search https://toolbox.google.com/datasetsearch
+- Google Public Data Explorer https://www.google.com/publicdata/directory
+- Google Trends https://trends.google.com/trends/
+- N-Gram Search https://books.google.com/ngrams
