@@ -62,3 +62,5 @@ Communities around dataViz (data also available)
 - https://data.world/makeovermonday/
 
 Makover Monday: Ugly graphs redone in a nice way, dataset available for you to do your own makover: https://data.world/makeovermonday/
+
+Amazing vizualizations, examples, (coffee table) book(s), data repistory (and I guess vizualizations he did) maybe even stuff to learn: David McCandless
