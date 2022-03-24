@@ -51,3 +51,5 @@ PAD database - brazil - more metadata
 Newer ISIC challenge data - more metadata
 
 Limitation: number of slic segments --> depends on area of leison --> we only have the area of mask (sum of pixels), but we should divide based on the real-life size of leison, which we don't know (so on a leison of the same size we have the same number of segments) <-> BUT even if divide the same lesion into more segments, similar color areas will still be grouped into similar colors, so the color difference won't be that much bigger, on average.
+
+Possible improvement: list comprehension of calculating mean color of slic -> vector based calc
