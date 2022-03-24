@@ -53,3 +53,19 @@ Newer ISIC challenge data - more metadata
 Limitation: number of slic segments --> depends on area of leison --> we only have the area of mask (sum of pixels), but we should divide based on the real-life size of leison, which we don't know (so on a leison of the same size we have the same number of segments) <-> BUT even if divide the same lesion into more segments, similar color areas will still be grouped into similar colors, so the color difference won't be that much bigger, on average.
 
 Possible improvement: list comprehension of calculating mean color of slic -> vector based calc
+
+different ways: (on mean or median of grayscale segments)
+- min-max
+- IQR
+- SD for 1 gaussian
+- figure out bimodal gaussian and distance of means (or multimodal, too, maybe)
+
+Test:
+- Logical regression (f1 number!!)
+- naive Bayes
+- sklearn feature selection
+
+Maybe even combine them.
+
+OR:
+ne segmentation and look at the distribution of the pixel (grayscale) in the lesion overall
