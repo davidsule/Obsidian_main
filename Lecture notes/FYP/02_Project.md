@@ -68,6 +68,6 @@ Test:
 Maybe even combine them.
 
 OR:
-ne segmentation and look at the distribution of the pixel (grayscale) in the lesion overall
+no segmentation and look at the distribution of the pixel (grayscale) in the lesion overall
 
 Idea: Compare the colors of the lesion with the skin around the lesion. How? Scale up the mask, then segment only that 'ring' (around the lesion), and compare the normal skin to lesion. What to compare: min/max (or smth else?) -> maybe test with the above methods.
