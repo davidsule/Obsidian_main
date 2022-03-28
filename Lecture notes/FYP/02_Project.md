@@ -59,6 +59,7 @@ different ways: (on mean or median of grayscale segments)
 - IQR (but rather not bc it would exclude relatively small patches of significantly different colors)
 - SD for 1 gaussian
 - figure out bimodal gaussian and distance of means (or multimodal, too, maybe)
+- Or Use the gaussian mixture model, and find the probable number of components (minimum aic)
 
 Test:
 - Logical regression (f1 number!!)
