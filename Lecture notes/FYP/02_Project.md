@@ -77,3 +77,6 @@ no segmentation and look at the distribution of the pixel (grayscale) in the les
 Idea: Compare the colors of the lesion with the skin around the lesion. How? Scale up the mask, then segment only that 'ring' (around the lesion), and compare the normal skin to lesion. What to compare: min/max (or smth else?) -> maybe test with the above methods.
 
 We will only use median -> more ruboust, not that much difference, and we can use nr of segments to pick up on differences.
+
+Segmentation barely changes gaussian mean and std
+For MAD: larger segments (lower segment number) -> higher MAD
