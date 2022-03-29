@@ -80,3 +80,7 @@ We will only use median -> more ruboust, not that much difference, and we can us
 
 Segmentation barely changes gaussian mean and std
 For MAD: larger segments (lower segment number) -> higher MAD
+
+Implement better masking algorithm??
+
+Idea: test
