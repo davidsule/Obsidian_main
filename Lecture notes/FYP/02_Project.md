@@ -65,7 +65,7 @@ different ways: (on mean or median of grayscale segments)
 - median of ring vs [lightest, some center, darkest]
 
 Test:
-- Logical regression (f1 number!!)
+- Logistic regression (f1 number!!)
 - naive Bayes
 - sklearn feature selection
 
