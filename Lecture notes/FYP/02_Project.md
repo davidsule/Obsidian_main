@@ -57,9 +57,12 @@ Possible improvement: list comprehension of calculating mean color of slic -> ve
 different ways: (on mean or median of grayscale segments)
 - min-max (median, mean)
 - IQR (but rather not bc it would exclude relatively small patches of significantly different colors)
+- 
 - SD for 1 gaussian
 - figure out bimodal gaussian and distance of means (or multimodal, too, maybe)
 - Or Use the gaussian mixture model, and find the probable number of components (minimum aic)
+- MAD: median of distances from the median of values
+- median of ring vs [lightest, some center, darkest]
 
 Test:
 - Logical regression (f1 number!!)
