@@ -82,5 +82,3 @@ Segmentation barely changes gaussian mean and std
 For MAD: larger segments (lower segment number) -> higher MAD
 
 Implement better masking algorithm??
-
-Idea: test
