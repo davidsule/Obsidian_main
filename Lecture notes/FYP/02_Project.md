@@ -82,3 +82,5 @@ Segmentation barely changes gaussian mean and std
 For MAD: larger segments (lower segment number) -> higher MAD
 
 Implement better masking algorithm??
+
+Pixel_per_segment: is it actually good to adjust it to nr of pixels? bc if you have the same lesion 2x but one is a larger resolution image, then you divide it differently?
