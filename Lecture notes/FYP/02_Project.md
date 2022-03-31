@@ -84,3 +84,12 @@ For MAD: larger segments (lower segment number) -> higher MAD
 Implement better masking algorithm??
 
 Pixel_per_segment: is it actually good to adjust it to nr of pixels? bc if you have the same lesion 2x but one is a larger resolution image, then you divide it differently?
+
+Idea: Study with comapre color and moving border, comapre relative RGB color
+skin line direction
+[https://glyndwr.repository.guildhe.ac.uk/id/eprint/200/1/fulltext.pdf](https://glyndwr.repository.guildhe.ac.uk/id/eprint/200/1/fulltext.pdf)
+
+  
+Idea: skin direction filtering
+Relative color histograms of melanoma
+[http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3184887&blobtype=pdf](http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3184887&blobtype=pdf)
