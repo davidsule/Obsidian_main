@@ -93,3 +93,8 @@ skin line direction
 Idea: skin direction filtering
 Relative color histograms of melanoma
 [http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3184887&blobtype=pdf](http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3184887&blobtype=pdf)
+
+
+ https://link.medium.com/ucyy8ikDTob
+ https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html
+ https://scikit-learn.org/stable/modules/feature_selection.html#feature-selection
