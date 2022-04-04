@@ -15,12 +15,12 @@ Dotfile utilities and configs: [[Shell Dotfiles]]
 ##### Extra
 - brew (if needed)
 - tldr
-- ripgrep
+- ripgrep x
 - tree
 - broot
-- autojump
-- fd
-- fzf
+- autojump x
+- fd x
+- fzf x
 - git
 - rg
 - tree
