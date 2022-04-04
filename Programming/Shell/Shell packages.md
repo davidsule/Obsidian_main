@@ -14,7 +14,7 @@ Dotfile utilities and configs: [[Shell Dotfiles]]
 - Git
 ##### Extra
 - brew (if needed)
-- tldr
+- tldr x
 - ripgrep x
 - tree
 - broot
