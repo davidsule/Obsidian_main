@@ -13,18 +13,15 @@ Dotfile utilities and configs: [[Shell Dotfiles]]
 - history-substring-search
 - Git
 ##### Extra
-- brew (if needed)
-- tldr x
-- ripgrep x
-- tree
-- broot
-- autojump x
-- fd x
-- fzf x
-- git
-- rg
-- tree
-- Python3 is python
+- homebrew
+- tldr 
+- ripgrep (rg) 
+- tree 
+- broot 
+- autojump 
+- fd 
+- fzf 
+- git 
 
 ### Bash packages
 - shellcheck (bash only)
