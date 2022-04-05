@@ -1,13 +1,28 @@
-## Scaling
+# Scaling
 
 notebook: FYP_imaging_evaluating_features
 
 
-## Feature Selection
+# Feature Selection
 
-### Univariate feature selection, mutual_info_classif
+## Variance Threshold
+
+remove low variance
+
+## Univariate feature selection
+
+sklearn: can be a pre-processing stop to an estimator
+selecting the best features based on univariate statistical tests
+select k best, percentile, based on false poz / fals discovery rate / familiy-wise error rate, or configurable strategy
+
+## mutual_info_classif
 
 Mutual information (MI) [[1]](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html#r50b872b699c4-1) between two random variables is a non-negative value, which measures the dependency between the variables. It is equal to zero if and only if two random variables are independent, and higher values mean higher dependency.
+Measure: mutual information gain: from the whole set of features, how much information do we get out with given param. The distribution/variance of one param might contain info about the other one, this is the mutual information gain. The param with the highest value gives the most info about the featureset in general. (also, entropy stuff)
+
+[Mutual information](https://en.wikipedia.org/wiki/Mutual_information) is calculated between two variables and measures the reduction in uncertainty for one variable given a known value of the other variable.
+
+> A quantity called mutual information measures the amount of information one can obtain from one random variable given another.
 
 Notebook: FYP_imaging_evaluating_features
 ```python
