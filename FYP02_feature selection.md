@@ -1,9 +1,12 @@
-### Do Scaling first
+## Scaling
+
 notebook: FYP_imaging_evaluating_features
 
 
+## Feature Selection
 
 ### Univariate feature selection, mutual_info_classif
+
 Notebook: FYP_imaging_evaluating_features
 ```python
 import matplotlib.pyplot as plt
@@ -45,3 +48,10 @@ X_after_selection = selector.transform(X)
 
 print(X_after_selection.shape)
 ```
+
+
+
+## Classification
+
+- KNN
+- Decision tree
