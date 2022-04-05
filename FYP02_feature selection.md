@@ -15,6 +15,8 @@ sklearn: can be a pre-processing stop to an estimator
 selecting the best features based on univariate statistical tests
 select k best, percentile, based on false poz / fals discovery rate / familiy-wise error rate, or configurable strategy
 
+chi^2 exxamp
+
 ## mutual_info_classif
 
 Mutual information (MI) [[1]](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html#r50b872b699c4-1) between two random variables is a non-negative value, which measures the dependency between the variables. It is equal to zero if and only if two random variables are independent, and higher values mean higher dependency.
@@ -68,11 +70,13 @@ print(X_after_selection.shape)
 
 ### Chi^2
 
-Not applicable: features must be Bool of frequency (I think)
+Not applicable: features must be Bool of frequency (I think) (I don't think you can use numerical as feature)
+
+### Anova
+Analysis of variance
 
 
-
-## Classification
+# Classification
 
 - KNN
 - Decision tree
