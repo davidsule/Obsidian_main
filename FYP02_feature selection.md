@@ -15,7 +15,7 @@ sklearn: can be a pre-processing stop to an estimator
 selecting the best features based on univariate statistical tests
 select k best, percentile, based on false poz / fals discovery rate / familiy-wise error rate, or configurable strategy
 
-chi^2 exxamp
+chi^2 exxample for analyzing how many features are the best: https://scikit-learn.org/stable/auto_examples/svm/plot_svm_anova.html#sphx-glr-auto-examples-svm-plot-svm-anova-py
 
 ## mutual_info_classif
 
@@ -72,7 +72,7 @@ print(X_after_selection.shape)
 
 Not applicable: features must be Bool of frequency (I think) (I don't think you can use numerical as feature)
 
-### Anova
+### Anova (f_classif)
 Analysis of variance
 
 
