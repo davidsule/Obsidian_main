@@ -7,6 +7,8 @@ notebook: FYP_imaging_evaluating_features
 
 ### Univariate feature selection, mutual_info_classif
 
+Mutual information (MI) [[1]](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html#r50b872b699c4-1) between two random variables is a non-negative value, which measures the dependency between the variables. It is equal to zero if and only if two random variables are independent, and higher values mean higher dependency.
+
 Notebook: FYP_imaging_evaluating_features
 ```python
 import matplotlib.pyplot as plt
