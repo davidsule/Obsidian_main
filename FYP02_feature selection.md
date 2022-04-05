@@ -66,6 +66,10 @@ X_after_selection = selector.transform(X)
 print(X_after_selection.shape)
 ```
 
+### Chi^2
+
+Not applicable: features must be Bool of frequency (I think)
+
 
 
 ## Classification
