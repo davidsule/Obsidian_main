@@ -102,8 +102,42 @@ Relative color histograms of melanoma
 
 ## Improve:
 - image names as indices in 
-- implement resize size parameter, save in corresponding folder (named based on pixel height)
+- implement resize size parameter, save in corresponding folder (named based on pixel height), and within that
 - add 'mask' to resized mask names
 - calculate pixel per segment based image size (all images)? mask (lesion) size (per image)? 
 - grayscale resize not working
 - move reading/writing final csv inside processing fell (the whole thing should only run if at least one of the flags is True)
+- make set params possible (brush, resize_size, pixel_per_segment)
+
+
+
+Pseudo-code:
+path definitions...
+params = ...
+
+path_list =[ im_id_list, path_original_images, path_original masks, path_processed folder]
+param list = [...]
+
+flag1 = ...
+flag2 = ..
+...
+
+create direct
+
+def Processing function(list_of_paths, param_list, flag1, flag2, flag3)
+
+Note: individual feature group csv files should be saved in their own 
+
+if any flag == True:
+	execute Processing function(list_of_paths, param_list, flag1, flag2, flag3)
+
+
+
+
+if any flag == True:
+	if flag1:
+		...
+	if flag2:
+		...
+	...
+	compile, write final csv
