@@ -100,12 +100,12 @@ Relative color histograms of melanoma
  https://scikit-learn.org/stable/modules/feature_selection.html#feature-selection
 
 
-## Improve:
-- image names as indices in 
+## Fix & Improve:
+
 - implement resize size parameter, save in corresponding folder (named based on pixel height), and within that
 - add 'mask' to resized mask names
 - calculate pixel per segment based image size (all images)? mask (lesion) size (per image)? 
-- grayscale resize not working
+- grayscale resize not working!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 - move reading/writing final csv inside processing fell (the whole thing should only run if at least one of the flags is True)
 - make set params possible (brush, resize_size, pixel_per_segment)
 
@@ -122,22 +122,18 @@ flag1 = ...
 flag2 = ..
 ...
 
-create direct
+create directories for paths
 
-def Processing function(list_of_paths, param_list, flag1, flag2, flag3)
-
-Note: individual feature group csv files should be saved in their own 
-
-if any flag == True:
-	execute Processing function(list_of_paths, param_list, flag1, flag2, flag3)
-
-
-
-
-if any flag == True:
+def Processing function(list_of_paths, param_list, flag1, flag2, flag3):
 	if flag1:
 		...
 	if flag2:
 		...
 	...
 	compile, write final csv
+
+Note: individual feature group csv files should be saved in their own folder (avoid clutter), with params in their name --> can be re-used (but all partial csvs in same folder, no matter params). Final csv files should also be in their own folder and have the param names in their name.
+
+if any flag == True:
+	execute Processing function(list_of_paths, param_list, flag1, flag2, flag3)
+
