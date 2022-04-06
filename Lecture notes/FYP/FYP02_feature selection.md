@@ -103,4 +103,17 @@ RFE is a wrapper type
 Filter:
 - Anova
 - mutual info
-- 
+
+
+
+Automatic selection of nr of features
+GridSearch: take a selection algorithms, take a model, put them in a pipeline, then run them in the gridsearch 
+https://machinelearningmastery.com/feature-selection-with-numerical-input-data/
+RFECV
+https://machinelearningmastery.com/rfe-feature-selection-in-python/
+
+Cross validation:
+- **Stratified:** The splitting of data into folds may be governed by criteria such as ensuring that each fold has the same proportion of observations with a given categorical value, such as the class outcome value. This is called [stratified cross-validation](https://machinelearningmastery.com/cross-validation-for-imbalanced-classification/).
+- **Train/Test Split**: Taken to one extreme, k may be set to 2 (not 1) such that a single [train/test split](https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/) is created to evaluate the model.
+
+https://machinelearningmastery.com/k-fold-cross-validation/
