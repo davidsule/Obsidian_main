@@ -100,16 +100,18 @@ RFE is a wrapper type
 
 
 
-Filter:
+- logistic regression
 - Anova
 - mutual info
 
 
 
 Automatic selection of nr of features
-GridSearch: take a selection algorithms, take a model, put them in a pipeline, then run them in the gridsearch 
+GridSearch: take a selection algorithms, take a model, put them in a pipeline, then run them in the gridsearch (grid set up to examine nr of features from 1 to all), it test how many is the best by doing the model on each step, then does the cross-validation (that you can also set up -> stratified)
 https://machinelearningmastery.com/feature-selection-with-numerical-input-data/
-RFECV
+RFECV loop:
+1. RFE
+2. Cross-validation 
 https://machinelearningmastery.com/rfe-feature-selection-in-python/
 
 Cross validation:
