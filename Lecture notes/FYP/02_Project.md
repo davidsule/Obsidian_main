@@ -104,4 +104,6 @@ Relative color histograms of melanoma
 - image names as indices in 
 - implement resize size parameter, save in corresponding folder (named based on pixel height)
 - add 'mask' to resized mask names
-- calculate pixel per segment based image size? mask (lesion) size?
+- calculate pixel per segment based image size (all images)? mask (lesion) size (per image)? 
+- grayscale resize not working
+- move reading/writing final csv inside processing fell (the whole thing should only run if at least one of the flags is True)
