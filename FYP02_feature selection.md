@@ -16,6 +16,7 @@ selecting the best features based on univariate statistical tests
 select k best, percentile, based on false poz / fals discovery rate / familiy-wise error rate, or configurable strategy
 
 chi^2 exxample for analyzing how many features are the best: https://scikit-learn.org/stable/auto_examples/svm/plot_svm_anova.html#sphx-glr-auto-examples-svm-plot-svm-anova-py
+other info on how to select best nr of features: https://machinelearningmastery.com/feature-selection-with-numerical-input-data/
 
 ## mutual_info_classif
 
@@ -74,6 +75,12 @@ Not applicable: features must be Bool of frequency (I think) (I don't think you 
 
 ### Anova (f_classif)
 Analysis of variance
+
+
+## Select nr of features
+
+chi^2 exxample for analyzing how many features are the best: https://scikit-learn.org/stable/auto_examples/svm/plot_svm_anova.html#sphx-glr-auto-examples-svm-plot-svm-anova-py
+other info on how to select best nr of features: https://machinelearningmastery.com/feature-selection-with-numerical-input-data/
 
 
 # Classification
