@@ -100,3 +100,8 @@ Relative color histograms of melanoma
  https://scikit-learn.org/stable/modules/feature_selection.html#feature-selection
 
 
+## Improve:
+- image names as indices in 
+- implement resize size parameter, save in corresponding folder (named based on pixel height)
+- add 'mask' to resized mask names
+- calculate pixel per segment based image size? mask (lesion) size?
