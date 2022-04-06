@@ -119,3 +119,8 @@ Cross validation:
 - **Train/Test Split**: Taken to one extreme, k may be set to 2 (not 1) such that a single [train/test split](https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/) is created to evaluate the model.
 
 https://machinelearningmastery.com/k-fold-cross-validation/
+
+
+Decision Tree
+Random Forest
+KNN
