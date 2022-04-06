@@ -86,4 +86,10 @@ other info on how to select best nr of features: https://machinelearningmastery.
 # Classification
 
 - KNN
-- Decision tree
+- Decision tree#
+- Logistic Regression
+
+
+Univariate:
+- Anova (f_classif)
+- mutual info
