@@ -100,4 +100,7 @@ RFE is a wrapper type
 
 
 
-Filter / wrapper
+Filter:
+- Anova
+- mutual info
+- 
