@@ -107,6 +107,7 @@ Relative color histograms of melanoma
 - calculate pixel per segment based image size (all images)? mask (lesion) size (per image)? 
 - grayscale resize not working!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 - move reading/writing final csv inside processing fell (the whole thing should only run if at least one of the flags is True)
+- 
 - make set params possible (brush, resize_size, pixel_per_segment)
 
 
