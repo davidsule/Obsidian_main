@@ -93,3 +93,11 @@ other info on how to select best nr of features: https://machinelearningmastery.
 Univariate:
 - Anova (f_classif)
 - mutual info
+
+
+RFE is a wrapper type
+
+
+
+
+Filter / wrapper
