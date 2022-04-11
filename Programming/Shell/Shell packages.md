@@ -21,7 +21,6 @@ Dotfile utilities and configs: [[Shell Dotfiles]]
 - autojump 
 - fd 
 - fzf 
-- git 
 
 ### Bash packages
 - shellcheck (bash only)
