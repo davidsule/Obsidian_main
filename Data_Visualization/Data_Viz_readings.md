@@ -7,7 +7,8 @@
 5.  **Information visualization: perception for design**,  Ware, C. 2012. Waltham, MA - *Human perception*
 6. **Show Me the Numbers: Designing Tables and Graphs to Enlighten**, Stephen Few (2nd edition, 2012)
 7. **The elements of graphing data**, Cleveland, *About the hierarchy of elementary perceptual tasks, I'm not sure if this is a good reading about practical stuff?*
-8. David Mccandless's books and projects (not to teach you but to inspire - beautiful visualizations of fascinating things)
+8. David Mccandless's books and projects (not to teach you but to inspire - beautiful visualizations of fascinating things) (e.g. **Information is beautiful**)
 9.  **The Visual Display of Quantitative Information** (2nd edition). Tufte, E. R. (2001). *classic*
 10. **The truthful art: Data, charts, and maps for communication** Cairo, A. (2016) 
 11. **How charts lie: Getting smarter about visual information** - Cairo A. 2019 - Follow up to The truthful art
+12. **The design of Everyday Things** Don Norman - 2013, *Design classic from the father of UX design*
