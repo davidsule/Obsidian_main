@@ -138,3 +138,10 @@ Note: individual feature group csv files should be saved in their own folder (av
 if any flag == True:
 	execute Processing function(list_of_paths, param_list, flag1, flag2, flag3)
 
+
+
+- Add mutual information as feature selection (test several number of selected features by training the classifier and checking which one is the best)
+- Add case where we use all features (only select from color ones)
+- Add case where we forcibly leave border and asymmetry in, only select down from color features
+- Train classifier on manually evaluated features (compare it to a model that's only trained on the 150, not the one on the 2000)
+- Use not just 2000 but all images (validation and test set).
