@@ -74,3 +74,9 @@ Other data sources you can explore:
 - Google Public Data Explorer https://www.google.com/publicdata/directory
 - Google Trends https://trends.google.com/trends/
 - N-Gram Search https://books.google.com/ngrams
+
+
+
+Information Is Beautiful Award, Annual 'Oscars' of dataviz https://www.informationisbeautifulawards.com/
+https://www.datavisualizationsociety.org/
+Nightingale - Journal of Data Visualizalition Society https://nightingaledvs.com/
