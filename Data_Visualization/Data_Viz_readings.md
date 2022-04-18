@@ -12,3 +12,4 @@
 10. **The truthful art: Data, charts, and maps for communication** Cairo, A. (2016) 
 11. **How charts lie: Getting smarter about visual information** - Cairo A. 2019 - Follow up to The truthful art
 12. **The design of Everyday Things** Don Norman - 2013, *Design classic from the father of UX design - not specifically about vizualization*. 
+13. **Fundamentals of data visualization: a primer on making informative and compelling figures** - Wilke, Claus 2019
