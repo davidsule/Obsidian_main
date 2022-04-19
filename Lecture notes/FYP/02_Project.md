@@ -145,3 +145,4 @@ if any flag == True:
 - Add case where we forcibly leave border and asymmetry in, only select down from color features
 - Train classifier on manually evaluated features (compare it to a model that's only trained on the 150, not the one on the 2000)
 - Use not just 2000 but all images (validation and test set).
+- Train classifier on manual labeling
