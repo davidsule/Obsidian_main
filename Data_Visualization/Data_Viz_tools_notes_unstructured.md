@@ -85,4 +85,4 @@ What Makes A Data Visualisation Elegant? https://medium.com/nightingale/what-mak
 
 https://fivethirtyeight.com/
 
-ATF Spark - Inline graphics font package (like a sparkline)
+ATF Spark - Inline graphics font package (like a sparkline / spark chart) http://aftertheflood.co/projects/atf-spark
