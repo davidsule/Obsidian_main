@@ -146,3 +146,10 @@ if any flag == True:
 - Train classifier on manually evaluated features (compare it to a model that's only trained on the 150, not the one on the 2000)
 - Use not just 2000 but all images (validation and test set).
 - Train classifier on manual labeling
+
+
+From Veronica during Q&A:
+One of the questions that came up today is about getting different performances if you split the data (e.g. using train_test_split). This depends on the random state, and is also influenced by other methods that might use the random state in your code (especially if you use a notebook, and might execute cells in a different order). 
+In any case it's a good idea to do multiple splits (like in the cross-validation example) to get multiple estimates of your performance. But to make sure your results are reproducible, you can take a look at the following :
+* Check the random state with https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_random_state.html
+* Read more about the background of this in section 10.3 here: https://scikit-learn.org/stable/common_pitfalls.html
