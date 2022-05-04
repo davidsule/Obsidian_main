@@ -4,8 +4,10 @@
 
 # Project notes
 
-- full stop as its own
-- hashtag leave in?
+- Lecture 01: Manual tokenization of a small subset of data and compare with result from tokenizer
+- Calculate Word boundary recall (R)
+
+![[Pasted image 20220504142801.png]]
 
 
 ### Recommended Readings from Christian:
