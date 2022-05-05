@@ -154,3 +154,8 @@ One of the questions that came up today is about getting different performances 
 In any case it's a good idea to do multiple splits (like in the cross-validation example) to get multiple estimates of your performance. But to make sure your results are reproducible, you can take a look at the following :
 * Check the random state with https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_random_state.html
 * Read more about the background of this in section 10.3 here: https://scikit-learn.org/stable/common_pitfalls.html
+
+
+
+#### Ideas
+- Data augmentation: translational or rotational invariance (create artifical examples, for example shifting the leasion in the image  or rotating it should not affect the predicted label) -> add them to training set (?)
