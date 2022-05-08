@@ -19,7 +19,7 @@
 ## Project 01
 
 - Data scavenging, incorporating external data should have been the first thing after the intro (and maybe some data cleaning knowledge). Having it as basically the last item meant that we felt we had to basically start from the beginning. It would be much much better if we could have already worked with our full dataset from the beginning.
-- Maybe a mid-project review / Q&A? - Workload was uneven, even tho Michele tried to give an overview about the project at the beginning, it wasn't clear what actually needs to be done, it felt like we could only start with the actual project when all the material was presented - see point above about incorporating another source.
+- Maybe a mid-project review / Q&A? - Workload was uneven, even though Michele tried to give an overview about the project at the beginning, it wasn't clear what actually needs to be done, it felt like we could only start with the actual project when all the material was presented - see point above about incorporating another source.
 
 ## Project 02
 
