@@ -27,5 +27,8 @@ To review:
 	- (Backoff and Interpolation)
 
 - L04:
-	- 
+
+
+
+How to add extra features to model and GSCV?
 
