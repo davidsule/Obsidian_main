@@ -33,3 +33,11 @@ To review:
 How to add extra features to model and GSCV?
 SRILM
 
+
+
+Possible improvement / note for report:  In pre-processing, the I'm -> I am expansion (and abbreviation expansion) only works if there is no punctuation around it. Maybe do that part of the tokenization together with pre-processing? Or the whole thing together? (like if you had originally I'm)
+Or maybe just run it again after tokenization?
+
+Why won't eng_dict expand the result in abbr_dict? Or maybe sometimes it does.... But check out hate train EA line 271
+
+bc of this effect hate EAG is marginally better (bc the weird apostrophe replacement and expansion was manually run after preprocess function)
