@@ -38,4 +38,4 @@ SRILM
 Possible improvement / note for report:  In pre-processing, the I'm -> I am expansion (and abbreviation expansion) only works if there is no punctuation around it. Maybe do that part of the tokenization together with pre-processing? Or the whole thing together? (like if you had originally I'm)
 Or maybe just run it again after tokenization?
 
-Also, Allcaps should only find len>1. But for example "   X, " is allcaps ()
+Also, Allcaps should only find len>1. But for example "   X, " gives True for .isupper() and it is len>1 -> counts as capital, when it shouldn't.
