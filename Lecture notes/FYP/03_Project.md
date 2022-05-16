@@ -39,3 +39,5 @@ Possible improvement / note for report:  In pre-processing, the I'm -> I am expa
 Or maybe just run it again after tokenization?
 
 Also, Allcaps should only find len>1. But for example "   X, " gives True for .isupper() and it is len>1 -> counts as capital, when it shouldn't.
+
+Abbreviation expansion changes to word to lowercase -> makes GingerIt's work harder + shows up as extra GingerIt correction.
