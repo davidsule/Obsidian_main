@@ -161,3 +161,15 @@ In any case it's a good idea to do multiple splits (like in the cross-validation
 - Data augmentation: translational or rotational invariance (create artifical examples, for example shifting the leasion in the image  or rotating it should not affect the predicted label) -> add them to training set (?)
 
 In my test for slic: Compactness=3, sigma=0 (i think I tested it). in color.py implementation compactness=5, sigma=1
+
+INTERESTING from my notebook note, under the bin number eval
+
+label2rgb replaces each discrete label with the average interior color
+image_show(color.label2rgb(image_slic, image, kind='avg'));
+
+Maybe check out Felzenszwalb
+https://towardsdatascience.com/image-segmentation-using-pythons-scikit-image-module-533a61ecc980
+
+
+
+Lighter than skin: maybe reduce extremes? look at like 10th percentile or smth?
