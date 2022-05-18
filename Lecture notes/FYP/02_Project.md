@@ -159,3 +159,5 @@ In any case it's a good idea to do multiple splits (like in the cross-validation
 
 #### Ideas
 - Data augmentation: translational or rotational invariance (create artifical examples, for example shifting the leasion in the image  or rotating it should not affect the predicted label) -> add them to training set (?)
+
+In my test for slic: Compactness=3, sigma=0 (i think I tested it). in color.py implementation compactness=5, sigma=1
