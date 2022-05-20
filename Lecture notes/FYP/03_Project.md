@@ -35,12 +35,13 @@ SRILM
 
 
 
-Possible improvement / note for report:  In pre-processing, the I'm -> I am expansion (and abbreviation expansion) only works if there is no punctuation around it. Maybe do that part of the tokenization together with pre-processing? Or the whole thing together? (like if you had originally I'm)
-Or maybe just run it again after tokenization?
-
-Also, Allcaps should only find len>1. But for example "   X, " gives True for .isupper() and it is len>1 -> counts as capital, when it shouldn't.
-
 Abbreviation expansion changes to word to lowercase -> makes GingerIt's work harder + shows up as extra GingerIt correction. But no, beacause abbreaviations are often uppercase but referring to lowercase stuff. Hard to separate: I'm hungry AF. -> I'm hungry as fuck from Ain't she gonna take him home? -> Isn't she gonna take him home? Okay, maybe if abbreviation's first letter is uppercase but not the rest -> First word of expansions capitalize, if allcaps or lowercase, then lowercase.
+
+Abbr dicts: Some lowercase, some upper case (like twitter slang) - > let's lowercase everything in the input dictionaries, and then search for the lowercased word? (not lwoercase word is searched for now in Marta's new function.) Plus see above paragraph.
+
+Plus, let's delete HAND (have a nice day) from twitter slang -> way more likely to be misinterpreted (no HAND in train hate). Actually no corpus has it in this sense, only actual hands.
+
+
 
 Lemmatization: If no tag --> maybe fall back to noun? 
 
