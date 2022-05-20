@@ -40,7 +40,7 @@ Or maybe just run it again after tokenization?
 
 Also, Allcaps should only find len>1. But for example "   X, " gives True for .isupper() and it is len>1 -> counts as capital, when it shouldn't.
 
-Abbreviation expansion changes to word to lowercase -> makes GingerIt's work harder + shows up as extra GingerIt correction.
+Abbreviation expansion changes to word to lowercase -> makes GingerIt's work harder + shows up as extra GingerIt correction. But no, beacause abbreaviations are often uppercase but referring to lowercase stuff. Hard to separate: I'm hungry AF. -> I'm hungry as fuck from Ain't she gonna take him home? -> Isn't she gonna take him home? Okay, maybe if abbreviation's first letter is uppercase but not the rest -> First word of expansions capitalize, if allcaps or lowercase, then lowercase.
 
 Lemmatization: If no tag --> maybe fall back to noun? 
 
