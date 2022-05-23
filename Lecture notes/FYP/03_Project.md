@@ -46,3 +46,9 @@ Plus, let's delete HAND (have a nice day) from twitter slang -> way more likely 
 Lemmatization: If no tag --> maybe fall back to noun? 
 
 How nltk pos_tag's tagset types work with lemmatizer?
+
+
+Train-Val-Test split and Cross-Validation
+https://machinelearningmastery.com/training-validation-test-split-and-cross-validation-done-right/
+
+
