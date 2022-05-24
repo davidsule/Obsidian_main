@@ -51,4 +51,5 @@ How nltk pos_tag's tagset types work with lemmatizer?
 Train-Val-Test split and Cross-Validation
 https://machinelearningmastery.com/training-validation-test-split-and-cross-validation-done-right/
 
-
+Feature union TF-IDF and Skip-Thought:
+https://monkeylearn.com/blog/beginners-guide-text-vectorization/
