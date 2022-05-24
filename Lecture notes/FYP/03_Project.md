@@ -41,6 +41,7 @@ Abbr dicts: Some lowercase, some upper case (like twitter slang) - > let's lower
 
 Plus, let's delete HAND (have a nice day) from twitter slang -> way more likely to be misinterpreted (no HAND in train hate). Actually no corpus has it in this sense, only actual hands.
 
+TOKENIZATION: ? ? ? -> ??? does it catch it?
 
 
 Lemmatization: If no tag --> maybe fall back to noun? 
