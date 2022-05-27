@@ -61,3 +61,4 @@ https://monkeylearn.com/blog/beginners-guide-text-vectorization/
 
 TOK:
 you_ are_ retarded_ ???
+@someone -> @user (replace every @anything with @user if @ is not followed by ' ' whitespace or other stuff)
