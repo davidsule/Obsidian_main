@@ -49,6 +49,8 @@ Lemmatization: If no tag --> maybe fall back to noun?
 How nltk pos_tag's tagset types work with lemmatizer?
 
 
+Does GSCV trains it on the whole data after or only parts (in the fold)?
+
 Train-Val-Test split and Cross-Validation
 https://machinelearningmastery.com/training-validation-test-split-and-cross-validation-done-right/
 
