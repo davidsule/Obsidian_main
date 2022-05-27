@@ -56,3 +56,8 @@ https://machinelearningmastery.com/training-validation-test-split-and-cross-vali
 
 Feature union TF-IDF and Skip-Thought:
 https://monkeylearn.com/blog/beginners-guide-text-vectorization/
+
+
+
+TOK:
+you_ are_ retarded_ ???
