@@ -1,6 +1,8 @@
 https://colorbrewer2.org - select colour schemes
 http://vischeck.com/ - simulates colourblind vision (check your colours - roughly 10% of men is red-green colour deficient)
 
+**https://www.python-graph-gallery.com/ - 45 elegant chart types created in Python and their code, many with several examples**
+
    
 
 Create your own color palette:
