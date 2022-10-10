@@ -1,8 +1,7 @@
 ACTIVE:
 Google one  
 Spotify  
-Netflix  
-Instapaper  
+Netflix    
 New York times  
 Grindr  
 Calm  
@@ -12,7 +11,6 @@ Lebara
 Wedomain (x2)  
 MobilePay business  
 NordVPN    
-FitON (expires 23.03.2022)
 IDrive (renews 21.10.2022)
 
 Elsa speak (lifetime licence)
@@ -22,4 +20,6 @@ Youtube premium
 Brilliant  
 MyFitnessPal  
 (Paused) ARCA Gym
-Obsidian
+Obsidian (lifetime 50% discount )
+FitON (expires 23.03.2022)
+Instapaper
