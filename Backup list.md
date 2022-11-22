@@ -1,6 +1,6 @@
 Google services (not Drive)
 Drive folder except for backup and movies
-Software stuff (github(2), dotfiles, conda environments, vs code etc??)
+Software stuff (github(2), dotfiles, conda environments, vs code etc??) - whole wsl distro
 packages in zsh / bash, R etc
 notion
 calibre
@@ -16,3 +16,4 @@ Dinero
 Facebook / insta pics?
 Kindle books (remove DRM)?
 GoodNotes
+bookmarks
