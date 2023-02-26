@@ -1,3 +1,9 @@
+Python assignment operator
+Inheritance, subclasses
+Namespaces, global/local cars
+Numpy/scipy:  sparse / dense matrices 
+
+
 Command line cursor navigation, deletion etc  
 Symlink Dotfiles in version controlled (git) folder (bash, zsh, powerlevel10k, got config, sublime, etc and others?) Dotfile utilities: [https://dotfiles.github.io/utilities/](https://dotfiles.github.io/utilities/)  
 list of bash/zsh packages installed  
