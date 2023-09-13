@@ -18,3 +18,4 @@ Kindle books (remove DRM)?
 GoodNotes
 bookmarks
 Spotify songs
+iCloud?
