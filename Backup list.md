@@ -19,3 +19,18 @@ GoodNotes
 bookmarks
 Spotify songs
 iCloud?
+
+BDS BSc project autumn 2023/ spring 2024  
+Data Visualisation and Data-driven Decision Making (Spring 2022)  
+Data Visualisation and Data-driven Decision Making (Spring 2023)  
+First Year Project (Spring 2022)  
+Introduction to Data Science and Programming (Autumn 2021)  
+Introduction to Database Systems, MSc SD (Autumn 2022)  
+Large Scale Data Analysis (Spring 2023)  
+Machine Learning (Autumn 2022)  
+Network Analysis (Autumn 2022)  
+Operating Systems and C (Autumn 2023)  
+Second Year Project (Introduction to Natural Language Processing and Deep Learning (Spring 2023)  
+Security and Privacy (Autumn 2023)  
+Software Development and Software Engineering (Autumn 2023)  
+Technical Communication (Autumn 2023)
