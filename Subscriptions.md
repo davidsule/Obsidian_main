@@ -7,6 +7,7 @@ Calm
 1password  
 Lebara
 Apple
+ChatGPT
 
 
 Elsa speak (lifetime licence)
