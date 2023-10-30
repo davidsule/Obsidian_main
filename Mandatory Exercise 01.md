@@ -54,3 +54,6 @@ Solution: `558519`
 #### Q5
 *$N = 39015351411159703781$, $e = 28236791284198039865$ is an RSA public key. Find a secret key $d$. Hint: $N$ is small enough to factor using online tools. Once you have the prime factors of $N$, you can compute $d$.*
 
+$N = p \times q = 4577112959 * 8524008859$ 
+$(p-1)*(q-1) = 39015351398058581964$
+$e \times d \equiv 1 \mod{((p-1)*(q-1)}$ 
