@@ -56,4 +56,13 @@ Solution: `558519`
 
 $N = p \times q = 4577112959 * 8524008859$ 
 $(p-1)*(q-1) = 39015351398058581964$
-$e \times d \equiv 1 \mod{((p-1)*(q-1)}$ 
+$e \times d \equiv 1 \mod{((p-1)*(q-1))}$ 
+$28236791284198039865 * d \equiv 1 \mod{39015351398058581964}$
+$d = 257$
+
+#### Q6
+*$N = 40291088320895195852036470353508848381827146847430787294309484425575705942017671$, $e = 3$  is an RSA public key. Decrypt a cipher text $c = 475401668162607296481614044005764021692987849$, knowing that the encrypted message is a number that is less than $10^{20}$. Hint: you can brute force the answer, but there is a much faster way to solve this.*
+
+$N \approx 4.029*10^{79}$
+$m < 10^{20}$, therefore $m^e = m^3 < 10^{60}$, hence $c = m^3 \; \% \; N = m^3$, so we have
+$m = c^{\frac{1}{3}} = 780465243023449$
