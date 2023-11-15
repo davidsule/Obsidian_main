@@ -9,6 +9,7 @@ Lebara
 Apple
 GoodNotes
 ChatGPT
+SmoothScroll Mac
 
 
 Elsa speak (lifetime licence)
