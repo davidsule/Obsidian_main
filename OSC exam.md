@@ -74,3 +74,32 @@ Notice that we always pass the pointer returned by `malloc` to `free` (but cast 
 
 # asmlab
 
+# logic
+
+## (a)
+
+All except **A&B&C**
+
+## (b)
+
+All except **A=1, B=1, C=0, Q=0**
+
+# assembly
+
+```
+	irmovq $D, %rdi # instruction nr. 0
+	irmovq $S, %rsi # instruction nr. 1
+	irmovq two, %rax # instruction nr. 2
+	mrmovq 0(%rax), %rax # instruction nr. 3
+main:
+	addq %rdi, %rax # instruction nr. 4
+	addq %rax, %rax # instruction nr. 5
+	subq %rdi, %rsi # instruction nr. 6
+	je done # instruction nr. 7
+	jmp main # instruction nr. 8
+done:
+	irmovq $0, %rdi # instruction nr. 9
+	halt # instruction nr. A
+two:
+	.quad 0x000000000002
+```
