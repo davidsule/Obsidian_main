@@ -125,3 +125,11 @@ Hint: What is it about the problem that makes this (not) beneficial? For a "why 
 
 Answer
  for a "How?" answer to the `blend_v` part, implementing multithreading and running the driver would indeed be the ideal way to demonstrate the benefit. It is not excessive; you have already done multithreading (`rotate_t`); now you just need to divide the blend-task into subproblems.
+
+## Q24
+For question 24:  
+The first question states P2 does not have access to P1s address space, does this apply to other possible answers or just that single answer?[
+
+![[osc_exam.png]]
+
+It applies only to that answer
