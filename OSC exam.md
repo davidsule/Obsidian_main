@@ -55,3 +55,10 @@ void queue_free(queue_t *q) {
 }
 ```
 
+We need to free every memory segment that was dynamically allocated (in this implementation only `malloc` was used). These were:
+- the strings the list elements have contain a pointer to,
+- the list elements,
+- the queue itself.
+
+First, in the `if` block, we test if `q` is not a null pointer, in which case there is nothing to free and the rest of the function would fail. Then, we iterate through the queue, freeing the memory allocated to the string for each list element, then the element itself. This is done the following way:
+-
