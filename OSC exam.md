@@ -1,4 +1,4 @@
-# Clab
+# clab
 
 ## (a)
 
@@ -63,7 +63,14 @@ We need to free every memory segment that was dynamically allocated (in this imp
 First, in the `if` block, I test if `q` is not a null pointer, in which case there is nothing to free and the rest of the function would fail. Then, I iterate through the queue, freeing the memory allocated to the string for each list element, then the element itself. This is done the following way:
 - I declare a variable `current` that's a pointer to the list element whose `value` member needs to be freed in the current iteration (more accurately the string pointed to by `value`) and initialize it to the first element of the queue (`q->head`).
 - I declare a temporary variable `tmp` of type `list_ele_t *` whose role will be described below and initialize it to `NULL`.
-- I iterate through the queue using a while loop. In each iteration I free the current element and its string and make `current` point to the next element. Since the `next` pointer of the tail (last element) is NULL and I use `current` as the condition for the while loop, it terminates after the is freed. The body of the loop has the following logic:
+- I iterate through the queue using a while loop. In each iteration I free the current element and its string and make `current` point to the next element. Since the `next` pointer of the tail (last element) is NULL and I use `current` as the condition for the while loop, it terminates after the tail is freed. The body of the loop has the following logic:
 	- Make `tmp` equal to `current`, so I can make `current` point to the next element while still being able to free the list element itself.
 	- Free the value (string) of `tmp`.
 	- Free `tmp` itself.
+	- (After the tail, `current` will be a null pointer in which case the while loop terminates.)
+- Lastly, I free `q` (the queue).
+
+Notice that we always pass the pointer returned by `malloc` to `free` (but cast to the type of pointer it's used for).
+
+# asmlab
+
