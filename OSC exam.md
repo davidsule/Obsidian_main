@@ -103,3 +103,25 @@ done:
 two:
 	.quad 0x000000000002
 ```
+
+
+
+
+# Notes
+
+## Q19
+
+5Q on PDF, 4Q on Quiz (excluded from grading)
+
+## Q15
+
+High miss penalty / High miss rate - doesn't matter
+
+## Q4
+
+In question 4, what exactly do you mean by "demonstrate the benefit"? Are you saying I should implement multithreading for the SIMD part of my prflab, it I believe that part to be a "How"? That seems a bit excessive, so if not, what is a valid demonstration?"Would vectorization benefit rotate_t ? How, or why not?  
+Would multithreading benefit blend_v ? How, or why not?  
+Hint: What is it about the problem that makes this (not) beneficial? For a "why not", give a solid argument. For a "how", demonstrate the benefit." (edited)
+
+Answer
+ for a "How?" answer to the `blend_v` part, implementing multithreading and running the driver would indeed be the ideal way to demonstrate the benefit. It is not excessive; you have already done multithreading (`rotate_t`); now you just need to divide the blend-task into subproblems.
