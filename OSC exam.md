@@ -163,7 +163,12 @@ Otherwise data may still reside in buffers which haven’t been flushed.
 
 # concurrency
 
+## (a)
 
+3, 9, 12, 15
+## (b)
+
+k & s
 
 
 
