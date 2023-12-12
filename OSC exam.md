@@ -78,7 +78,12 @@ Notice that we always pass the pointer returned by `malloc` to `free` (but cast 
 
 **Solution:** `0 397`
 **Process overview**:
-1. I used `objdump` to disassemble the binary (I also dumped)
+1. I used `objdump` to disassemble the binary (I also dumped the symbol table, the strings, and used the disassemble all option but these were not utilized for this phase)
+2. I used `gdb` to inspect how the `phase_3` function works. First, I enabled logging and used `disas` to disassemble `phase_3` to get and save the disassembled function with the memory addresses matching the ones used in gdb, then disabled logging, to avoid saving anything further in the file.
+3. I ran `gdb` with the text file containing the solutions for phase 1 & 2 (`gdb --args bomb solutions.txt`) so those don't need to be entered again.
+4. I set breakpoints to `explode_bomb` and `phase_3`, to avoid detonation and to stop execution at the beginning of the function.
+5. I initially entered arbitrary, simple, but distinctive values as guesses, so their values are easily recognized during debugging
+6. I stepped through the instructions, inspectio
 
 # logic
 
