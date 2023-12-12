@@ -116,10 +116,15 @@ two:
 
 ## (a)
 
-- **src**:
-- **dst**:
+- **src**: spatial
+- **dst**: neither
 - **i**: temporal
 
+## (b)
+
+- `i=0`: neither
+- `j++`: temporal
+- **inner loop body**: both
 
 # Notes
 
