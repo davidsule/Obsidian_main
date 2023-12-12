@@ -147,6 +147,19 @@ The process attempted to access a region of memory which it is not privileged to
 everything but backwards compatibility (although I'm only 100% sure about simplifies access)
 
 
+# i/o
+
+## (a)
+
+When a program reads from a file on disk in Linux, which of the following events occurs as a result? Pick all that apply..
+
+b. The program executes the INT (aka. SYSCALL) instruction.
+c. The kernel performs a context switch.
+e. The disk interrupts the CPU when the transfer is complete.
+
+## (b)
+
+
 
 # Notes
 
