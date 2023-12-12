@@ -88,7 +88,8 @@ Notice that we always pass the pointer returned by `malloc` to `free` (but cast 
 **Solution logic:** (Line identifiers refer to the memory offset of the instruction from the first instruction of `phase_3`, found in 'gdb.txt'.)
 1. <+0> to <+17> decrements the stack pointer to allocate the necessary space on the stack for the function then sets up the canary and saves its value on the stack, it has no bearing on the solution logic.
 2. <+22> zeros out %eax.
-3. <+24> to <+32> loads values into registers used as arguments for called functions (and indeed one is called at <+39>), so I inspected the register values and the memory addresses from which they were loaded. It was easy to observe that (%rsp) and 4(%rsp) were
+3. <+24> to <+32> loads values into registers used as arguments for called functions (and indeed one is called at <+39>), so I inspected the register values and the memory addresses from which they were loaded. It was not immediately clear what the values were but I suspected that <+39> will load the inputs somehow, as there are comparisons happening after.
+4. Indeed, after the function execution (%rsp) and 4(%rsp) contain the first two input values (when delimited by space) but subsequent input values do not appear. I inspected these addresses for two reasons: These were used in <+24> to <+32> and because the stack contains local variables. With strings this point wasn't obvious at first but since I tried both I could come to this conclusion. Later, line <+49> (cmpl   $0x7,(%rsp)
 # logic
 
 ## (a)
