@@ -74,6 +74,10 @@ Notice that we always pass the pointer returned by `malloc` to `free` (but cast 
 
 # asmlab
 
+## (a)
+
+
+
 # logic
 
 ## (a)
