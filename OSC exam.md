@@ -112,6 +112,8 @@ two:
 
 ## (b)
 
+![[osc_exam_ass.png]]
+
 # locality
 
 ## (a)
