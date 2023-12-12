@@ -170,6 +170,14 @@ Otherwise data may still reside in buffers which haven’t been flushed.
 
 k & s
 
+# misc
+
+## (a)
+
+Not all functions are referrentially transparent
+
+## (b)
+
 
 
 
