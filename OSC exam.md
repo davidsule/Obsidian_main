@@ -178,6 +178,11 @@ Not all functions are referrentially transparent
 
 ## (b)
 
+**P2 reads in the value 0x00000020 had before P1 overwrote it with 1s (P2 does not have access to P1’s address space).**
+**P2 reads in the contents of the physical page that 0x00000020 maps to in its own address space.**
+**P2 experiences a segmentation fault.**
+
+## (c)
 
 
 
