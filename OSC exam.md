@@ -83,8 +83,12 @@ Notice that we always pass the pointer returned by `malloc` to `free` (but cast 
 3. I ran `gdb` with the text file containing the solutions for phase 1 & 2 (`gdb --args bomb solutions.txt`) so those don't need to be entered again.
 4. I set breakpoints to `explode_bomb` and `phase_3`, to avoid detonation and to stop execution at the beginning of the function.
 5. I initially entered arbitrary, simple, but distinctive values as guesses, so their values are easily recognized during debugging
-6. I stepped through the instructions, inspectio
+6. I stepped through the instructions, inspecting registers and memory addresses as necessary.
 
+**Solution logic:** (Line identifiers refer to the memory offset of the instruction from the first instruction of `phase_3`, found in 'gdb.txt'.)
+1. <+0> to <+17> decrements the stack pointer to allocate the necessary space on the stack for the function then sets up the canary and saves its value on the stack, it has no bearing on the solution logic.
+2. <+22> zeros out %eax.
+3. <+24> to <+32> loads values into registers used as arguments for called functions (and indeed one is called at <+39>), so I inspected the register values and the memory addresses from which they were loaded. It was easy to observe that (%rsp) and 4(%rsp) were
 # logic
 
 ## (a)
