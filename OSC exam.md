@@ -76,7 +76,9 @@ Notice that we always pass the pointer returned by `malloc` to `free` (but cast 
 
 ## (a)
 
-
+**Solution:** `0 397`
+**Process overview**:
+1. I used `objdump` to disassemble the binary (I also dumped)
 
 # logic
 
