@@ -159,6 +159,14 @@ e. The disk interrupts the CPU when the transfer is complete.
 
 ## (b)
 
+Otherwise data may still reside in buffers which haven’t been flushed.
+
+# concurrency
+
+
+
+
+
 
 
 # Notes
