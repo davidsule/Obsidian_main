@@ -90,9 +90,13 @@ Notice that we always pass the pointer returned by `malloc` to `free` (but cast 
 2. <+22> zeros out %eax.
 3. <+24> to <+32> loads values into registers used as arguments for called functions (and indeed one is called at <+39>), so I inspected the register values and the memory addresses from which they were loaded. It was not immediately clear what the values were but I suspected that <+39> will load the inputs somehow, as there are comparisons happening after.
 4. Indeed, after the function execution (%rsp) and 4(%rsp) contain the first two input values (when delimited by space) but subsequent input values do not appear. I inspected these addresses for two reasons: These were used in <+24> to <+32> and because the stack contains local variables. With strings this point wasn't obvious at first but since I tried both I could come to this conclusion. Later, line <+49> (`cmpl   $0x7,(%rsp)`) and <+53> (`ja     0x55555555678e <phase_3+213>`) made it obvious that the input must be numeric, as values from strings will always satisfy `ja` and the destination address is a call to `explode_bomb`.
-5. We also know from <+49> that the first input must be b
+5. We also know from <+49> that the first input must be between 0 and 7 (inclusive)
 6. In case there was only one input given <+47> will take the jump to a call to `explode_bomb` because of `<+44>:	cmp    $0x1,%eax`, so we know that 2 arguments must be given (as any third argument will never be used).
-7. <+59> to <+76> uses the first input to compute an address to jump to instructions in the range from <+164> to <+218>, where %eax is zerod out and a jump is performed to instructions in the range from <+86> to <+121>.
+7. <+59> to <+76> uses the first input to compute an address to jump to instructions in the range from <+164> to <+218>, where %eax is zerod out and a jump is performed to instructions in the range from <+86> to <+121>, which are a series of add and subtract operations (different immediate values added to / subtracted from $eax).
+8. We then know that our first input will determine which operation we jump to, therefore determine the value in $eax at the end of the add/subtract sequence.
+9. Lines <+126> and <+130> make it clear that the first input must actually be between 0 and 5 (inclusive).
+10. From <+132> and <+136> we can see that the end result of $eax must match our second input. From this we can calculate evaluate what values $eax takes with different first inputs from 0 to 5 (or write up an equation and solve it).
+11. From <+143> there is only a canary check left and if that's ok, then the function returns and the phase is solved. (It's important to note that there is no alternative way to end up at the ret instruction than the one described above.)
 # logic
 
 ## (a)
