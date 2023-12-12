@@ -112,7 +112,13 @@ two:
 
 ## (b)
 
+# locality
 
+## (a)
+
+- **src**:
+- **dst**:
+- **i**: temporal
 
 
 # Notes
