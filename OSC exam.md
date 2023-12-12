@@ -188,7 +188,11 @@ An interrupt forces the processor to context-switch to the kernel at regular int
 
 ## (d)
 
+**By utilizing a special instruction modifier that locks the memory bus.**
 
+## (e)
+
+**A unified API for doing I/O on all kinds of resources.**
 
 
 # Notes
