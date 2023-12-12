@@ -184,6 +184,10 @@ Not all functions are referrentially transparent
 
 ## (c)
 
+An interrupt forces the processor to context-switch to the kernel at regular intervals.
+
+## (d)
+
 
 
 
