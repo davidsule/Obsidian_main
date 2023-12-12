@@ -126,6 +126,28 @@ two:
 - `j++`: temporal
 - **inner loop body**: both
 
+# caching
+
+## (a)
+
+Capacity miss
+
+## (b)
+
+… a read from an address gives you its most up-to-date value.
+
+# memory
+
+## (a)
+
+The process attempted to access a region of memory which it is not privileged to access.
+
+## (b)
+
+
+
+
+
 # Notes
 
 ## Q19
