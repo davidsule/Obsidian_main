@@ -18,6 +18,9 @@ Flourish https://flourish.studio/
 Interactive history of chart: [history.infowetrust.com/](https://history.infowetrust.com/)
 
 WTF charts  [https://viz.wtf/](https://viz.wtf/)
+Xenographics - Weird but (sometimes) useful charts - https://xeno.graphics/
+Mike Bostock - interesting charts, good examples https://bost.ocks.org/mike/
+
 
 [A tour through Data Visualization Zoo](https://web.archive.org/web/20220314131512/https://queue.acm.org/detail.cfm?id=1805128)
 
