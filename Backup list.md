@@ -17,7 +17,7 @@ Facebook / insta pics?
 Kindle books (remove DRM)?
 GoodNotes
 bookmarks
-Spotify songs
+Spotify songs and playlists
 iCloud?
 
 BDS BSc project autumn 2023/ spring 2024  
