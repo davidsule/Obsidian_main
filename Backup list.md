@@ -6,7 +6,7 @@ notion
 calibre
 contacts, texts, mms, phonecall history (separately)
 saved games
-Desktop and downloads
+Desktop and downloads, and other shit in user folder
 list of installed apps
 Zotero
 Overleaf?
