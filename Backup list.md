@@ -10,15 +10,17 @@ Desktop and downloads
 list of installed apps
 Zotero
 Overleaf?
-OneDrive (office lens), other Microsoft stuff?
+OneDrive (office lens), OneNote, Pictures folder, Screenshots, other Microsoft stuff?
 Obsidian
 Dinero
 Facebook / insta pics?
-Kindle books (remove DRM)?
+Kindle books (remove DRM), ebooks, audiobooks
 GoodNotes
 bookmarks
 Spotify songs and playlists
 iCloud?
+ITU account like mail
+
 
 BDS BSc project autumn 2023/ spring 2024  
 Data Visualisation and Data-driven Decision Making (Spring 2022)  
