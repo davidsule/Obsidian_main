@@ -23,6 +23,7 @@ ITU account like mail
 Google Drive Shared With Me
 Google Photos shared with me?
 Instapaper
+Trakt
 
 
 BDS BSc project autumn 2023/ spring 2024  
